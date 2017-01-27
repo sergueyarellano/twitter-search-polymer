@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Polymer Element Test Case</title>
+  <base href="//polygit.org/components/">
+  <script src="webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="polymer/polymer.html">
+  <link rel="import" href="iron-ajax/iron-ajax.html">
+  <link rel="import" href="paper-input/paper-input.html">
+  <link rel="import" href="paper-spinner/paper-spinner.html">
+</head>
+<body>
+  <dom-module id='test-elem'>
+    <template>
+      <iron-ajax auto url='http://httpbin.org/post' method='POST'
+                 last-response='{{response}}' headers='{{headers}}'
+                 loading='{{loading}}'>
+      </iron-ajax>
+
+      <paper-input label='Custom Header' value='{{customHeader}}'>
+      </paper-input>
+
+      <paper-spinner active='{{loading}}'></paper-spinner>
+
+      <div>
+        Headers received by the server:
+        <pre>{{pretty(response.headers)}}</pre>
+      </div>
+    </template>
+  </dom-module>
+  <script>
+    document.addEventListener('WebComponentsReady', function() {
+      Polymer({
+        is: 'test-elem',
+        properties: {
+          headers: {
+            type: Object,
+            computed: 'getHeaders(customHeader)'
+          },
+          customHeader: {
+            value: 'hello world!'
+          }
+        },
+        getHeaders: function(customHeader) {
+          return {'X-Custom-Header': customHeader}
+        },
+        pretty: function(v) {
+          return JSON.stringify(v, null, 2);
+        }
+      })
+    })
+  </script>
+  <test-elem></test-elem>
+  <script>
+    var x = document.querySelector('test-elem');
+  </script>
+</body>
+</html>
