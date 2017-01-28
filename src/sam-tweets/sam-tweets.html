@@ -8,6 +8,10 @@
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
 <link rel="import" href="../../bower_components/paper-radio-group/paper-radio-group.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/paper-styles/default-theme.html">
+<link rel="import" href="../../bower_components/paper-styles/shadow.html">
 
 <dom-module id="sam-tweets-app">
   <template>
@@ -28,64 +32,86 @@
   paper-toolbar {
     text-align: right;
   }
+  paper-card.size {
+    --paper-card-header-image: {
+      width:10%;
+    }
+  }
+  paper-card {
+    width: 100%;
+    padding: 5px;
+  }
   </style>
 
-  <template is="dom-bind">
-    <iron-ajax
-    auto
-    method="GET"
-    url="[[url]]"
-    handle-as="json"
-    headers='{"Authorization": "OAuth oauth_consumer_key="DC0sePOBbQ8bYdC8r4Smg",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1485616293",oauth_nonce="1444747178",oauth_version="1.0",oauth_token="2791244489-38rvCB3bPIKQdoB9SCiEjykDD0qlyISbL1K6oKy",oauth_signature="zk2UASda38Ig%2BlUhyZlv2NyY6C4%3D"}'
-    last-response="{{rawTweets}}"></iron-ajax>
-    <iron-list items="[[data]]" as="item">
-      <template>
-        <div>
-          Name: [[item.name]]
-        </div>
-      </template>
-    </iron-list>
+  <iron-ajax
+  auto
+  method="GET"
+  url="https://api.twitter.com/1.1/search/tweets.json"
+  params="[[_params]]"
+  handle-as="json"
+  headers='{"Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAACa3ywAAAAAA91LW%2FVynrKK8Xya3SWhEYXdecMs%3DQxI67AjEVc52r3wS1PK1kevKCl9iFBpqZMMgZv16FwHgOLysv2"}'
+  last-response="{{rawTweets}}"
+  debounce-duration="300">
+</iron-ajax>
+<iron-list items="[[data]]" as="item">
+  <template>
+    <div>
+      Name: [[item.name]]
+    </div>
   </template>
+</iron-list>
 
+<!-- headers='{"Authorization": "OAuth oauth_consumer_key="DC0sePOBbQ8bYdC8r4Smg",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1485616293",oauth_nonce="1444747178",oauth_version="1.0",oauth_token="2791244489-38rvCB3bPIKQdoB9SCiEjykDD0qlyISbL1K6oKy",oauth_signature="zk2UASda38Ig%2BlUhyZlv2NyY6C4%3D"}' -->
+<div class="">
+  {{rawTweets}}
+</div>
 
-  <div class="">
-    {{rawTweets}}
-  </div>
+<paper-drawer-panel right-drawer>
 
-  <!-- headers='{"Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAACa3ywAAAAAA91LW%2FVynrKK8Xya3SWhEYXdecMs%3DQxI67AjEVc52r3wS1PK1kevKCl9iFBpqZMMgZv16FwHgOLysv2"}' -->
-  <paper-drawer-panel right-drawer>
-    <paper-header-panel drawer>
-      <paper-toolbar>Menu</paper-toolbar>
-      <paper-radio-group selected="small">
-        <paper-radio-button name="small">Small</paper-radio-button>
-        <paper-radio-button name="medium">Medium</paper-radio-button>
-        <paper-radio-button name="large">Large</paper-radio-button>
-      </paper-radio-group>
-    </paper-header-panel>
-    <paper-header-panel main>
-      <paper-toolbar>
-        <div class="flex">Twitter search app</div>
-        <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
-      </paper-toolbar>
+  <paper-header-panel drawer>
+    <paper-toolbar>Menu</paper-toolbar>
+    <label>Refresh ratio</label>
+    <paper-radio-group selected="{{newRefreshRatio}}">
+      <paper-radio-button name="0s">Don't refresh</paper-radio-button>
+      <paper-radio-button name="2s">2 seconds</paper-radio-button>
+      <paper-radio-button name="5s">5 seconds</paper-radio-button>
+      <paper-radio-button name="30s">30 seconds</paper-radio-button>
+      <paper-radio-button name="60s">1 minute</paper-radio-button>
+    </paper-radio-group>
+  </paper-header-panel>
 
-      <div class="pad">
-        <paper-input always-float-label label="Search tweets" value="{{search}}"></paper-input>
-        <template is="dom-repeat" items="[[tweets]]" as="tweet">
-          <br>
-          <template is="dom-repeat" items="[[tweet]]" as="detail">
-            <span highlighted$="[[detail.highlighted]]">[[detail.text]]</span>
-            <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
-              <br>
-              <span>By: [[detail.screen_name]]</span>
-              <br>
-              <span>Retweets: [[detail.retweet_count]]</span>
+  <paper-header-panel main>
+
+    <paper-toolbar>
+      <div class="flex">Twitter search app</div>
+      <paper-icon-button icon="refresh" hidden$="[[hideRefreshButton]]"></paper-icon-button></paper-icon-button>
+      <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+    </paper-toolbar>
+
+    <div class="pad">
+      <paper-input always-float-label label="Search tweets" value="{{search}}"></paper-input>
+
+      <template is="dom-repeat" items="[[tweets]]" as="tweet">
+        <paper-card class="size" image="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-128.png" alt="Emmental">
+          <div class="card-content">
+
+            <template is="dom-repeat" items="[[tweet]]" as="detail">
+              <span highlighted$="[[detail.highlighted]]" on-tap="bindHighlightedToInput">[[detail.text]]</span>
+              <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
+                <div class="card-actions">
+                  <span>[[detail.screen_name]]</span>
+                  <span>[[detail.retweet_count]]!</span>
+                </div>
+              </template>
             </template>
-          </template>
-        </template>
-        <br>
-      </div>
-    </paper-header-panel>
-  </paper-drawer-panel>
+
+          </div>
+        </paper-card>
+      </template>
+
+    </div>
+  </paper-header-panel>
+</paper-drawer-panel>
 </template>
 
 <script>
@@ -113,23 +139,40 @@ Polymer({
       }
     }
   },
-
-  _computeURL: function (search) {
-    return 'https://api.twitter.com/1.1/search/tweets.json?q=' + search;
+  _computeParams: function (search) {
+    return {
+      q: search
+    };
   },
-
+  bindHighlightedToInput: function(e) {
+    var highlighted = e.target.getAttribute('highlighted')
+    if (typeof highlighted === 'string') {
+      this.search = e.target.innerHTML;
+    }
+  },
+  ratioObserver: function (newVal, oldVal) {
+    this.hideRefreshButton = !(newVal === '0s')
+  },
   properties: {
-    search: {
-      type: String,
-      value: '',
+    _params: {
+      type: Object,
+      computed: '_computeParams(search)'
     },
     tweets: {
       type: Array,
       computed: '_computeTweets(_rawTweets)'
     },
-    url: {
+    search: {
       type: String,
-      computed: '_computeURL(search)'
+      value: '',
+    },
+    hideRefreshButton: {
+      type: Boolean,
+      value: false,
+    },
+    newRefreshRatio: {
+      type: String,
+      observer: 'ratioObserver',
     },
     _rawTweets: {
       type: Object,
