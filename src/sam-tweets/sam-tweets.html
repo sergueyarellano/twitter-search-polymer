@@ -5,6 +5,7 @@
 <link rel="import" href="../../bower_components/paper-input/paper-input.html">
 <link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
 
 <dom-module id="sam-tweets-app">
   <template>
@@ -12,12 +13,18 @@
   :host {
     display: block;
   }
+  .pad {
+    margin: 8px;
+  }
   span[highlighted] {
     color: blue;
   }
   span[highlighted]:hover {
     color: purple;
     cursor: pointer;
+  }
+  paper-toolbar {
+    text-align: right;
   }
   </style>
   <iron-ajax
@@ -32,27 +39,35 @@
     {{rawTweets}}
   </div>
 
-  <paper-toolbar>
-    <paper-icon-button icon="refresh" on-tap="moreAction"></paper-icon-button>
-    <div class="title">Twitter search app</div>
-    <paper-icon-button icon="menu" on-tap="moreAction"></paper-icon-button>
-  </paper-toolbar>
-  <paper-input always-float-label label="Search tweets"></paper-input>
+  <paper-drawer-panel right-drawer>
+    <paper-header-panel drawer>
+      <paper-toolbar>Menu</paper-toolbar>
 
+    </paper-header-panel>
+    <paper-header-panel main>
+      <paper-toolbar>
+        <div class="flex">Twitter search app</div>
+        <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+      </paper-toolbar>
 
-  <template is="dom-repeat" items="[[tweets]]" as="tweet">
-    <br>
-    <template is="dom-repeat" items="[[tweet]]" as="detail">
-      <span highlighted$="[[detail.highlighted]]">[[detail.text]]</span>
-      <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
+      <div class="pad">
+        <paper-input always-float-label label="Search tweets"></paper-input>
+        <template is="dom-repeat" items="[[tweets]]" as="tweet">
+          <br>
+          <template is="dom-repeat" items="[[tweet]]" as="detail">
+            <span highlighted$="[[detail.highlighted]]">[[detail.text]]</span>
+            <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
+              <br>
+              <span>By: [[detail.screen_name]]</span>
+              <br>
+              <span>Retweets: [[detail.retweet_count]]</span>
+            </template>
+          </template>
+        </template>
         <br>
-        <span>By: [[detail.screen_name]]</span>
-        <br>
-        <span>Retweets: [[detail.retweet_count]]</span>
-      </template>
-    </template>
-  </template>
-  <br>
+      </div>
+    </paper-header-panel>
+  </paper-drawer-panel>
 </template>
 
 <script>
