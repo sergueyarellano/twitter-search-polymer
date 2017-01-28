@@ -65,10 +65,10 @@
     <label>Refresh ratio</label>
     <paper-radio-group selected="{{newRefreshRatio}}">
       <paper-radio-button name="0">Don't refresh</paper-radio-button>
-      <paper-radio-button name="2000">2 seconds</paper-radio-button>
-      <paper-radio-button name="5000">5 seconds</paper-radio-button>
-      <paper-radio-button name="30000">30 seconds</paper-radio-button>
-      <paper-radio-button name="60000">1 minute</paper-radio-button>
+      <paper-radio-button name="2000" disabled$=[[hideRefreshButton]]>2 seconds</paper-radio-button>
+      <paper-radio-button name="5000" disabled$=[[hideRefreshButton]]>5 seconds</paper-radio-button>
+      <paper-radio-button name="30000" disabled$=[[hideRefreshButton]]>30 seconds</paper-radio-button>
+      <paper-radio-button name="60000" disabled$=[[hideRefreshButton]]>1 minute</paper-radio-button>
     </paper-radio-group>
   </paper-header-panel>
 
