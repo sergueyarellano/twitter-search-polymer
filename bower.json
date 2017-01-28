@@ -8,7 +8,9 @@
     "paper-button": "PolymerElements/paper-button#^1.0.14",
     "paper-input": "PolymerElements/paper-input#^1.1.23",
     "paper-toolbar": "PolymerElements/paper-toolbar#^1.1.7",
-    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^1.0.11"
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^1.0.11",
+    "paper-radio-group": "PolymerElements/paper-radio-group#^1.2.1",
+    "iron-list": "PolymerElements/iron-list#^1.4.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
