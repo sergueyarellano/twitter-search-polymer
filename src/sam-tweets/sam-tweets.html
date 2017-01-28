@@ -8,6 +8,7 @@
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
 <link rel="import" href="../../bower_components/paper-radio-group/paper-radio-group.html">
+<link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
 <link rel="import" href="../../bower_components/paper-card/paper-card.html">
 <link rel="import" href="../../bower_components/paper-styles/typography.html">
 <link rel="import" href="../../bower_components/paper-styles/default-theme.html">
@@ -82,7 +83,7 @@
 
     <div class="pad">
       <paper-input always-float-label label="Search tweets" value="{{search}}"></paper-input>
-
+      <paper-spinner active$="[[spinner]]" class="thick"></paper-spinner>
       <template is="dom-repeat" items="[[tweets]]" as="tweet">
         <paper-card class="size" image="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-128.png" alt="Emmental">
           <div class="card-content">
@@ -150,8 +151,11 @@ Polymer({
   },
   _updateData: function() {
     this.$.ajaxRequest.generateRequest();
+    this.spinner = true;
   },
   _onResponse: function() {
+    this.spinner = false;
+
     this.async(function() {
       if (this.hideRefreshButton) {
         this._updateData();
@@ -177,6 +181,10 @@ Polymer({
       value: 0,
     },
     hideRefreshButton: {
+      type: Boolean,
+      value: false,
+    },
+    spinner: {
       type: Boolean,
       value: false,
     },

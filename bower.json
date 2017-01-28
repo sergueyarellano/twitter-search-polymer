@@ -12,7 +12,8 @@
     "paper-radio-group": "PolymerElements/paper-radio-group#^1.2.1",
     "iron-list": "PolymerElements/iron-list#^1.4.0",
     "paper-card": "PolymerElements/paper-card#^1.1.4",
-    "paper-styles": "PolymerElements/paper-styles#^1.1.5"
+    "paper-styles": "PolymerElements/paper-styles#^1.1.5",
+    "paper-spinner": "PolymerElements/paper-spinner#^1.2.1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
