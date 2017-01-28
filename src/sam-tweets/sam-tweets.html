@@ -53,7 +53,7 @@
   headers='{"Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAACa3ywAAAAAA91LW%2FVynrKK8Xya3SWhEYXdecMs%3DQxI67AjEVc52r3wS1PK1kevKCl9iFBpqZMMgZv16FwHgOLysv2"}'
   last-response="{{rawTweets}}"
   on-error="_onResponse"
-  debounce-duration="500">
+  debounce-duration="1000">
 </iron-ajax>
 
 <!-- headers='{"Authorization": "OAuth oauth_consumer_key="DC0sePOBbQ8bYdC8r4Smg",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1485616293",oauth_nonce="1444747178",oauth_version="1.0",oauth_token="2791244489-38rvCB3bPIKQdoB9SCiEjykDD0qlyISbL1K6oKy",oauth_signature="zk2UASda38Ig%2BlUhyZlv2NyY6C4%3D"}' -->
@@ -75,7 +75,7 @@
   <paper-header-panel main>
 
     <paper-toolbar>
-      <paper-icon-button icon="refresh" hidden$="[[hideRefreshButton]]"></paper-icon-button></paper-icon-button>
+      <paper-icon-button icon="refresh" hidden$="[[hideRefreshButton]]" on-tap="_updateData"></paper-icon-button></paper-icon-button>
       <div class="flex">Twitter search app</div>
       <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
     </paper-toolbar>
@@ -146,17 +146,18 @@ Polymer({
     this.hideRefreshButton = newVal !== '0'
     this.refreshRate = parseInt(newVal);
     this.cancelAsync();
-    this.hideRefreshButton && this._updateData()
+    this.hideRefreshButton && this._onResponse()
   },
   _updateData: function() {
-    this.async(function() {
-      if (this.hideRefreshButton) {
-        this.$.ajaxRequest.generateRequest();
-      }
-    }, this.refreshRate);
+    this.$.ajaxRequest.generateRequest();
   },
   _onResponse: function() {
-    this._updateData();
+    this.async(function() {
+      if (this.hideRefreshButton) {
+        this._updateData();
+      }
+    }, this.refreshRate);
+
   },
   properties: {
     _params: {
