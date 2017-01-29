@@ -146,7 +146,8 @@ Polymer({
       .map(_mapTweets)
       .concat({
         retweet_count : status.retweet_count,
-        screen_name: status.user.screen_name
+        screen_name: status.user.screen_name,
+        highlighted: false
       })
 
       function _mapTweets(word) {

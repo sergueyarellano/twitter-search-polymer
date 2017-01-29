@@ -1,74 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>sam-tweets-app test</title>
+  <title>sam-tweets-app test</title>
 
-    <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
-    <script src="../../../web-component-tester/browser.js"></script>
+  <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../../src/sam-tweets/sam-tweets.html">
-  </head>
-  <body>
-    <test-fixture id="basic">
-      <template>
-        <sam-tweets-app></sam-tweets-app>
-      </template>
-    </test-fixture>
+  <link rel="import" href="../../src/sam-tweets/sam-tweets.html">
+</head>
+<body>
+  <test-fixture id="basic">
+    <template>
+      <sam-tweets-app></sam-tweets-app>
+    </template>
+  </test-fixture>
 
-    <script>
-      suite('sam-tweets-app', function() {
-        test('instantiating the element works', function() {
-          var element = fixture('basic');
-          assert.equal(element.is, 'sam-tweets-app');
-        });
-        test('_computeTweets() should return a list of arrays when twitter API response is passed', function() {
-          var element = fixture('basic');
-          var twitterResponse = {statuses: [{text: 'my tweet #hastag'},{text: 'my second tweet #hastag'}]}
-          var actual, expected;
+  <script>
+  suite('sam-tweets-app', function() {
+    var twitterResponse = {statuses: [{text: 'my tweet #hastag', retweet_count: 0, user:{screen_name: 'user'}},{text: 'my second tweet #hastag', retweet_count: 0, user:{screen_name: 'user'}}]}
+    test('instantiating the element works', function() {
+      var element = fixture('basic');
+      assert.equal(element.is, 'sam-tweets-app');
+    });
+    test('_computeTweets() should return a list of arrays when twitter API response is passed', function() {
+      var element = fixture('basic');
+      var actual, expected;
 
-          element._computeTweets(twitterResponse).forEach(_makeAssertions);
+      element._computeTweets(twitterResponse).forEach(_makeAssertions);
 
-          function _makeAssertions(tweet) {
-            var actual = Array.isArray(tweet);
-            var expected = true;
-            assert.equal(actual, expected);
-          }
-        });
-        test('_computeTweets() should return a boolean highlighted property for each word on every tweet', function() {
-          var element = fixture('basic');
-          var twitterResponse = {statuses: [{text: 'my tweet #hastag'},{text: 'my second tweet #hastag'}]}
-          var actual, expected;
+      function _makeAssertions(tweet) {
+        var actual = Array.isArray(tweet);
+        var expected = true;
+        assert.equal(actual, expected);
+      }
+    });
+    test('_computeTweets() should return a boolean highlighted property for each word on every tweet', function() {
+      var element = fixture('basic');
+      var actual, expected;
 
-          element._computeTweets(twitterResponse).forEach(_makeAssertions);
+      element._computeTweets(twitterResponse).forEach(_makeAssertions);
 
-          function _makeAssertions (tweet) {
-            tweet.forEach(function(word){
-              actual = typeof word.highlighted;
-              expected = 'boolean';
-              assert.equal(actual, expected);
-            })
-          }
-        });
-        test('_computeTweets() should return a highlighted property set to true for each hastag or mention on every tweet', function() {
-          var element = fixture('basic');
-          var twitterResponse = {statuses: [{text: 'my @mention and tweet #hastag'},{text: 'my second tweet #hastag and @mention'}]}
-          var regex = /^(#|@)/;
-          var actual, expected;
+      function _makeAssertions (tweet) {
+        tweet.forEach(function(word){
 
-          element._computeTweets(twitterResponse).forEach(_makeAssertions);
+          actual = typeof word.highlighted;
+          expected = 'boolean';
+          assert.equal(actual, expected);
+        })
+      }
+    });
+    test('_computeTweets() should return a highlighted property set to true for each hastag or mention on every tweet', function() {
+      var element = fixture('basic');
+      var regex = /^(#|@)/;
+      var actual, expected;
 
-          function _makeAssertions (tweet) {
-            tweet.forEach(function(word){
-              actual = word.highlighted;
-              expected = regex.test(word.text);
-              assert.equal(actual, expected);
-            })
-          }
-        });
-      });
-    </script>
-  </body>
+      element._computeTweets(twitterResponse).forEach(_makeAssertions);
+
+      function _makeAssertions (tweet) {
+        tweet.forEach(function(word){
+          actual = word.highlighted;
+          expected = regex.test(word.text);
+          assert.equal(actual, expected);
+        })
+      }
+    });
+  });
+  </script>
+</body>
 </html>
