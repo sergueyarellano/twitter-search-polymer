@@ -51,5 +51,5 @@ app.get('/api', (req, res)=> {
   }
 });
 app.listen(3000, function (req, res) {
-  console.log('listening on port 3000!');
+  console.log('The mocks are ready!');
 });
