@@ -1,0 +1,980 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-list/iron-list.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
+<link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
+<link rel="import" href="../../bower_components/paper-radio-group/paper-radio-group.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-progress/paper-progress.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/paper-styles/default-theme.html">
+<link rel="import" href="../../bower_components/paper-styles/shadow.html">
+
+<dom-module id="sam-tweets-app">
+  <template>
+  <style>
+  :host {
+    display: block;
+  }
+  .pad {
+    margin: 8px;
+    display: block;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  iron-list {
+    flex: 1 1 auto;
+  }
+  paper-button {
+    text-transform: none;
+
+  }
+  span[highlighted] {
+    color: blue;
+  }
+  span[highlighted]:hover {
+    color: purple;
+    cursor: pointer;
+  }
+  paper-toolbar {
+    text-align: right;
+  }
+  paper-progress.blue {
+    --paper-progress-active-color: var(--paper-light-blue-500);
+    --paper-progress-secondary-color: var(--paper-light-blue-100);
+  }
+  paper-progress.fast {
+  --paper-progress-indeterminate-cycle-duration: 0.5s;
+  }
+  paper-progress {
+    width: 100%;
+  }
+  paper-card.size {
+    --paper-card-header-image: {
+      width:10%;
+    }
+  }
+  paper-card {
+    width: 100%;
+    padding: 5px;
+  }
+  </style>
+
+  <iron-ajax
+  id="ajaxRequest"
+  auto
+  method="GET"
+  url="https://api.twitter.com/1.1/search/tweets.json"
+  params="[[_params]]"
+  handle-as="json"
+  headers='{"Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAACa3ywAAAAAA91LW%2FVynrKK8Xya3SWhEYXdecMs%3DQxI67AjEVc52r3wS1PK1kevKCl9iFBpqZMMgZv16FwHgOLysv2"}'
+  last-response="{{rawTweets}}"
+  on-error="_onResponse"
+  debounce-duration="1000">
+</iron-ajax>
+
+<!-- headers='{"Authorization": "OAuth oauth_consumer_key="DC0sePOBbQ8bYdC8r4Smg",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1485616293",oauth_nonce="1444747178",oauth_version="1.0",oauth_token="2791244489-38rvCB3bPIKQdoB9SCiEjykDD0qlyISbL1K6oKy",oauth_signature="zk2UASda38Ig%2BlUhyZlv2NyY6C4%3D"}' -->
+
+<paper-drawer-panel right-drawer>
+  <paper-header-panel drawer>
+    <paper-toolbar>
+      <div title>Refresh rate</div>
+    </paper-toolbar>
+      <paper-radio-group selected="{{newRefreshRatio}}">
+        <paper-radio-button name="0">Don't refresh</paper-radio-button>
+        <paper-radio-button name="2000" disabled$=[[refreshBtnIsHidden]]>2 seconds</paper-radio-button>
+        <paper-radio-button name="5000" disabled$=[[refreshBtnIsHidden]]>5 seconds</paper-radio-button>
+        <paper-radio-button name="30000" disabled$=[[refreshBtnIsHidden]]>30 seconds</paper-radio-button>
+        <paper-radio-button name="60000" disabled$=[[refreshBtnIsHidden]]>1 minute</paper-radio-button>
+      </paper-radio-group>
+  </paper-header-panel>
+
+  <paper-header-panel main>
+    <paper-toolbar>
+      <paper-icon-button icon="refresh" hidden$="[[refreshBtnIsHidden]]" on-tap="_updateData"></paper-icon-button></paper-icon-button>
+      <div class="flex">Twitter search app</div>
+      <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+    </paper-toolbar>
+    <paper-progress indeterminate disabled$=[[!progress]] class="blue fast"></paper-progress>
+
+    <div class="pad">
+      <paper-input always-float-label label="Search tweets" value="{{search}}"></paper-input>
+      <iron-list items="[[tweets]]" as="tweet">
+        <template>
+        <paper-card class="size" image="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-128.png" alt="Emmental">
+          <div class="card-content">
+
+            <template is="dom-repeat" items="[[tweet]]" as="detail">
+              <span highlighted$="[[detail.highlighted]]" on-tap="bindHighlightedToInput">[[detail.text]]</span>
+              <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
+                <div class="card-actions">
+                  <paper-icon-button icon="icons:account-circle"></paper-icon-button>
+                  <paper-button>[[detail.screen_name]]</paper-button>
+                  <paper-button>[[detail.retweet_count]] RT's</paper-button>
+                </div>
+              </template>
+            </template>
+
+          </div>
+        </paper-card>
+        </template>
+      </iron-list>
+    </div>
+
+  </paper-header-panel>
+</paper-drawer-panel>
+</template>
+
+<script>
+Polymer({
+
+  is: 'sam-tweets-app',
+
+  _computeTweets: function (rawTweets) {
+    return rawTweets.statuses.map(_colorizeHashtags);
+
+    function _colorizeHashtags (status) {
+      return status.text
+      .split(' ')
+      .map(_mapTweets)
+      .concat({
+        retweet_count : status.retweet_count,
+        screen_name: status.user.screen_name
+      })
+
+      function _mapTweets(word) {
+        return {
+          text: word,
+          highlighted: /^(#|@)/.test(word)
+        }
+      }
+    }
+  },
+  _computeParams: function (search) {
+    return {
+      q: search
+    };
+  },
+  bindHighlightedToInput: function(e) {
+    var highlighted = e.target.getAttribute('highlighted')
+    if (typeof highlighted === 'string') {
+      this.search = e.target.innerHTML;
+    }
+  },
+  ratioObserver: function (newVal, oldVal) {
+    this.refreshBtnIsHidden = newVal !== '0'
+    this.refreshRate = parseInt(newVal);
+    this.cancelAsync();
+    this.refreshBtnIsHidden && this._onResponse()
+  },
+  _updateData: function() {
+    this.$.ajaxRequest.generateRequest();
+    this.progress = true;
+  },
+  _onResponse: function() {
+    this.progress = false;
+
+    this.async(function() {
+      if (this.refreshBtnIsHidden) {
+        this._updateData();
+      }
+    }, this.refreshRate);
+
+  },
+  properties: {
+    _params: {
+      type: Object,
+      computed: '_computeParams(search)'
+    },
+    tweets: {
+      type: Array,
+      computed: '_computeTweets(_rawTweets)'
+    },
+    search: {
+      type: String,
+      value: '',
+    },
+    refreshRate: {
+      type: Number,
+      value: 0,
+    },
+    refreshBtnIsHidden: {
+      type: Boolean,
+      value: false,
+    },
+    progress: {
+      type: Boolean,
+      value: false,
+    },
+    newRefreshRatio: {
+      type: String,
+      observer: 'ratioObserver',
+    },
+    _rawTweets: {
+      type: Object,
+      // from https://dev.twitter.com/rest/reference/get/search/tweets
+      value: {
+        "statuses": [
+          {
+            "text": "Aggressive Ponytail #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "sean_cummings"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Thee Namaste Nerdz. #FreeBandNames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "bullcityrecords"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "MonkiesFist"
+            }
+          },
+          {
+            "text": "The Foolish Mortals #freebandnames",
+            "retweet_count": 0,
+            "user": {
+              "screen_name": "Omnitarian"
+            }
+          }
+        ]
+      }
+    },
+  },
+
+});
+</script>
+</dom-module>

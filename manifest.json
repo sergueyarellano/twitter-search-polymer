@@ -1,6 +1,6 @@
 {
-  "name": "polymer-test",
-  "short_name": "polymer-test",
+  "name": "sam-tweets",
+  "short_name": "sam-tweets",
   "description": "polymer test",
   "start_url": "/",
   "display": "standalone"
