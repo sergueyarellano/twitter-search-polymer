@@ -7,9 +7,10 @@
 <link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
+<link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
 <link rel="import" href="../../bower_components/paper-radio-group/paper-radio-group.html">
-<link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
 <link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-progress/paper-progress.html">
 <link rel="import" href="../../bower_components/paper-styles/typography.html">
 <link rel="import" href="../../bower_components/paper-styles/default-theme.html">
 <link rel="import" href="../../bower_components/paper-styles/shadow.html">
@@ -23,6 +24,10 @@
   .pad {
     margin: 8px;
   }
+  paper-button {
+    text-transform: none;
+
+  }
   span[highlighted] {
     color: blue;
   }
@@ -32,6 +37,16 @@
   }
   paper-toolbar {
     text-align: right;
+  }
+  paper-progress.blue {
+    --paper-progress-active-color: var(--paper-light-blue-500);
+    --paper-progress-secondary-color: var(--paper-light-blue-100);
+  }
+  paper-progress.fast {
+  --paper-progress-indeterminate-cycle-duration: 0.5s;
+  }
+  paper-progress {
+    width: 100%;
   }
   paper-card.size {
     --paper-card-header-image: {
@@ -60,30 +75,29 @@
 <!-- headers='{"Authorization": "OAuth oauth_consumer_key="DC0sePOBbQ8bYdC8r4Smg",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1485616293",oauth_nonce="1444747178",oauth_version="1.0",oauth_token="2791244489-38rvCB3bPIKQdoB9SCiEjykDD0qlyISbL1K6oKy",oauth_signature="zk2UASda38Ig%2BlUhyZlv2NyY6C4%3D"}' -->
 
 <paper-drawer-panel right-drawer>
-
   <paper-header-panel drawer>
-    <paper-toolbar>Menu</paper-toolbar>
-    <label>Refresh ratio</label>
-    <paper-radio-group selected="{{newRefreshRatio}}">
-      <paper-radio-button name="0">Don't refresh</paper-radio-button>
-      <paper-radio-button name="2000" disabled$=[[hideRefreshButton]]>2 seconds</paper-radio-button>
-      <paper-radio-button name="5000" disabled$=[[hideRefreshButton]]>5 seconds</paper-radio-button>
-      <paper-radio-button name="30000" disabled$=[[hideRefreshButton]]>30 seconds</paper-radio-button>
-      <paper-radio-button name="60000" disabled$=[[hideRefreshButton]]>1 minute</paper-radio-button>
-    </paper-radio-group>
+    <paper-toolbar>
+      <div title>Refresh rate</div>
+    </paper-toolbar>
+      <paper-radio-group selected="{{newRefreshRatio}}">
+        <paper-radio-button name="0">Don't refresh</paper-radio-button>
+        <paper-radio-button name="2000" disabled$=[[refreshBtnIsHidden]]>2 seconds</paper-radio-button>
+        <paper-radio-button name="5000" disabled$=[[refreshBtnIsHidden]]>5 seconds</paper-radio-button>
+        <paper-radio-button name="30000" disabled$=[[refreshBtnIsHidden]]>30 seconds</paper-radio-button>
+        <paper-radio-button name="60000" disabled$=[[refreshBtnIsHidden]]>1 minute</paper-radio-button>
+      </paper-radio-group>
   </paper-header-panel>
 
   <paper-header-panel main>
-
     <paper-toolbar>
-      <paper-icon-button icon="refresh" hidden$="[[hideRefreshButton]]" on-tap="_updateData"></paper-icon-button></paper-icon-button>
+      <paper-icon-button icon="refresh" hidden$="[[refreshBtnIsHidden]]" on-tap="_updateData"></paper-icon-button></paper-icon-button>
       <div class="flex">Twitter search app</div>
       <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
     </paper-toolbar>
+    <paper-progress indeterminate disabled$=[[!progress]] class="blue fast"></paper-progress>
 
     <div class="pad">
       <paper-input always-float-label label="Search tweets" value="{{search}}"></paper-input>
-      <paper-spinner active$="[[spinner]]" class="thick"></paper-spinner>
       <template is="dom-repeat" items="[[tweets]]" as="tweet">
         <paper-card class="size" image="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-128.png" alt="Emmental">
           <div class="card-content">
@@ -92,8 +106,9 @@
               <span highlighted$="[[detail.highlighted]]" on-tap="bindHighlightedToInput">[[detail.text]]</span>
               <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
                 <div class="card-actions">
-                  <span>[[detail.screen_name]]</span>
-                  <span>[[detail.retweet_count]]!</span>
+                  <paper-icon-button icon="icons:account-circle"></paper-icon-button>
+                  <paper-button>[[detail.screen_name]]</paper-button>
+                  <paper-button>[[detail.retweet_count]] RT's</paper-button>
                 </div>
               </template>
             </template>
@@ -101,8 +116,8 @@
           </div>
         </paper-card>
       </template>
-
     </div>
+
   </paper-header-panel>
 </paper-drawer-panel>
 </template>
@@ -144,20 +159,20 @@ Polymer({
     }
   },
   ratioObserver: function (newVal, oldVal) {
-    this.hideRefreshButton = newVal !== '0'
+    this.refreshBtnIsHidden = newVal !== '0'
     this.refreshRate = parseInt(newVal);
     this.cancelAsync();
-    this.hideRefreshButton && this._onResponse()
+    this.refreshBtnIsHidden && this._onResponse()
   },
   _updateData: function() {
     this.$.ajaxRequest.generateRequest();
-    this.spinner = true;
+    this.progress = true;
   },
   _onResponse: function() {
-    this.spinner = false;
+    this.progress = false;
 
     this.async(function() {
-      if (this.hideRefreshButton) {
+      if (this.refreshBtnIsHidden) {
         this._updateData();
       }
     }, this.refreshRate);
@@ -180,11 +195,11 @@ Polymer({
       type: Number,
       value: 0,
     },
-    hideRefreshButton: {
+    refreshBtnIsHidden: {
       type: Boolean,
       value: false,
     },
-    spinner: {
+    progress: {
       type: Boolean,
       value: false,
     },
@@ -392,6 +407,106 @@ Polymer({
               "following": null,
               "show_all_inline_media": true,
               "screen_name": "bullcityrecords"
+            },
+            "in_reply_to_screen_name": null,
+            "source": "web",
+            "in_reply_to_status_id": null
+          },
+          {
+            "coordinates": null,
+            "favorited": false,
+            "truncated": false,
+            "created_at": "Fri Sep 21 23:30:20 +0000 2012",
+            "id_str": "249289491129438208",
+            "entities": {
+              "urls": [
+
+              ],
+              "hashtags": [
+                {
+                  "text": "freebandnames",
+                  "indices": [
+                    29,
+                    43
+                  ]
+                }
+              ],
+              "user_mentions": [
+
+              ]
+            },
+            "in_reply_to_user_id_str": null,
+            "contributors": null,
+            "text": "Mexican Heaven, Mexican Hell #freebandnames",
+            "metadata": {
+              "iso_language_code": "en",
+              "result_type": "recent"
+            },
+            "retweet_count": 0,
+            "in_reply_to_status_id_str": null,
+            "id": 249289491129438208,
+            "geo": null,
+            "retweeted": false,
+            "in_reply_to_user_id": null,
+            "place": null,
+            "user": {
+              "profile_sidebar_fill_color": "99CC33",
+              "profile_sidebar_border_color": "829D5E",
+              "profile_background_tile": false,
+              "name": "Thomas John Wakeman",
+              "profile_image_url": "http://a0.twimg.com/profile_images/2219333930/Froggystyle_normal.png",
+              "created_at": "Tue Sep 01 21:21:35 +0000 2009",
+              "location": "Kingston New York",
+              "follow_request_sent": null,
+              "profile_link_color": "D02B55",
+              "is_translator": false,
+              "id_str": "70789458",
+              "entities": {
+                "url": {
+                  "urls": [
+                    {
+                      "expanded_url": null,
+                      "url": "",
+                      "indices": [
+                        0,
+                        0
+                      ]
+                    }
+                  ]
+                },
+                "description": {
+                  "urls": [
+
+                  ]
+                }
+              },
+              "default_profile": false,
+              "contributors_enabled": false,
+              "favourites_count": 19,
+              "url": null,
+              "profile_image_url_https": "https://si0.twimg.com/profile_images/2219333930/Froggystyle_normal.png",
+              "utc_offset": -18000,
+              "id": 70789458,
+              "profile_use_background_image": true,
+              "listed_count": 1,
+              "profile_text_color": "3E4415",
+              "lang": "en",
+              "followers_count": 63,
+              "protected": false,
+              "notifications": null,
+              "profile_background_image_url_https": "https://si0.twimg.com/images/themes/theme5/bg.gif",
+              "profile_background_color": "352726",
+              "verified": false,
+              "geo_enabled": false,
+              "time_zone": "Eastern Time (US & Canada)",
+              "description": "Science Fiction Writer, sort of. Likes Superheroes, Mole People, Alt. Timelines.",
+              "default_profile_image": false,
+              "profile_background_image_url": "http://a0.twimg.com/images/themes/theme5/bg.gif",
+              "statuses_count": 1048,
+              "friends_count": 63,
+              "following": null,
+              "show_all_inline_media": false,
+              "screen_name": "MonkiesFist"
             },
             "in_reply_to_screen_name": null,
             "source": "web",
