@@ -1,0 +1,2214 @@
+{
+  "statuses": [
+    {
+      "created_at": "Sun Jan 29 19:44:52 +0000 2017",
+      "id": 825791841299755008,
+      "id_str": "825791841299755008",
+      "text": "Crinsane / LaravelShoppingcart: A simple shopping cart implementation for Laravel ★1156 https://t.co/PiVhdPpSDp #PHP",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "PHP",
+            "indices": [
+              112,
+              116
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/PiVhdPpSDp",
+            "expanded_url": "https://github.com/Crinsane/LaravelShoppingcart",
+            "display_url": "github.com/Crinsane/Larav…",
+            "indices": [
+              88,
+              111
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://github.com/andygrunwald/TrendingGithub\" rel=\"nofollow\">TrendingGithub</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3360844691,
+        "id_str": "3360844691",
+        "name": "Github Trending",
+        "screen_name": "TrendingGithub",
+        "location": "",
+        "description": "Trending repositories and developers from GitHub. No official @github product. Made by @andygrunwald for you with ❤️",
+        "url": "https://t.co/Kn5BGop8kO",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Kn5BGop8kO",
+                "expanded_url": "https://github.com/andygrunwald/TrendingGithub",
+                "display_url": "github.com/andygrunwald/T…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4156,
+        "friends_count": 5001,
+        "listed_count": 339,
+        "created_at": "Sun Jul 05 16:13:59 +0000 2015",
+        "favourites_count": 0,
+        "utc_offset": 3600,
+        "time_zone": "Berlin",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 12159,
+        "lang": "de",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/620263843437125632/pklcPmRO_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/620263843437125632/pklcPmRO_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:44:51 +0000 2017",
+      "id": 825791840867717123,
+      "id_str": "825791840867717123",
+      "text": "#wp_Dev #reddit #php [WP] Fatal Error in Option.php https://t.co/O355JZ3GZx",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "wp_Dev",
+            "indices": [
+              0,
+              7
+            ]
+          },
+          {
+            "text": "reddit",
+            "indices": [
+              8,
+              15
+            ]
+          },
+          {
+            "text": "php",
+            "indices": [
+              16,
+              20
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/O355JZ3GZx",
+            "expanded_url": "https://www.reddit.com/r/PHP/comments/5qvnba/wp_fatal_error_in_optionphp/",
+            "display_url": "reddit.com/r/PHP/comments…",
+            "indices": [
+              52,
+              75
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "da",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 777739085557276672,
+        "id_str": "777739085557276672",
+        "name": "webpoints",
+        "screen_name": "webpoint_new",
+        "location": "USA",
+        "description": "I want to view more link. #WebpointRead #wp_Dev #wp_MLB #wp_NBA #wp_GoogleDoodle #wp_MovieTrailer #wp_Laptops #wp_Design #wp_Listen",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 102,
+        "friends_count": 20,
+        "listed_count": 110,
+        "created_at": "Mon Sep 19 05:20:22 +0000 2016",
+        "favourites_count": 0,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 993,
+        "lang": "ko",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/777743140019064832/GZNsRrVv_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/777743140019064832/GZNsRrVv_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "da"
+    },
+    {
+      "created_at": "Sun Jan 29 19:41:58 +0000 2017",
+      "id": 825791114305208320,
+      "id_str": "825791114305208320",
+      "text": "RT @stackshareio: .@bemalasnow - PHP/Laravel/MySQL https://t.co/ZXKU6vytOb #php #laravel #mysql #stackhighlight #techstack https://t.co/3Zx…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "php",
+            "indices": [
+              75,
+              79
+            ]
+          },
+          {
+            "text": "laravel",
+            "indices": [
+              80,
+              88
+            ]
+          },
+          {
+            "text": "mysql",
+            "indices": [
+              89,
+              95
+            ]
+          },
+          {
+            "text": "stackhighlight",
+            "indices": [
+              96,
+              111
+            ]
+          },
+          {
+            "text": "techstack",
+            "indices": [
+              112,
+              122
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "stackshareio",
+            "name": "StackShare",
+            "id": 1106096840,
+            "id_str": "1106096840",
+            "indices": [
+              3,
+              16
+            ]
+          },
+          {
+            "screen_name": "BeMalasNow",
+            "name": "Bemalas",
+            "id": 3162018967,
+            "id_str": "3162018967",
+            "indices": [
+              19,
+              30
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/ZXKU6vytOb",
+            "expanded_url": "http://bit.ly/2jCGE2V",
+            "display_url": "bit.ly/2jCGE2V",
+            "indices": [
+              51,
+              74
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2328994356,
+        "id_str": "2328994356",
+        "name": "Ru Tan",
+        "screen_name": "jutan2012",
+        "location": "Toulouse, France",
+        "description": "Femme entrepreneur chinoise en France    Made in France Digital    Marketing digital   Innovative thinking   Application mobile version 1.0.1  Web développeur",
+        "url": "https://t.co/Q7iAGofLWN",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Q7iAGofLWN",
+                "expanded_url": "http://innoside.com",
+                "display_url": "innoside.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 309,
+        "friends_count": 533,
+        "listed_count": 771,
+        "created_at": "Wed Feb 05 15:53:13 +0000 2014",
+        "favourites_count": 998,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 5806,
+        "lang": "fr",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/781363453302829056/ohn0J7cu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/781363453302829056/ohn0J7cu_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2328994356/1445880564",
+        "profile_link_color": "9B00B3",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Jan 29 18:32:04 +0000 2017",
+        "id": 825773523952136192,
+        "id_str": "825773523952136192",
+        "text": ".@bemalasnow - PHP/Laravel/MySQL https://t.co/ZXKU6vytOb #php #laravel #mysql #stackhighlight #techstack https://t.co/3ZxePkrDIR",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "php",
+              "indices": [
+                57,
+                61
+              ]
+            },
+            {
+              "text": "laravel",
+              "indices": [
+                62,
+                70
+              ]
+            },
+            {
+              "text": "mysql",
+              "indices": [
+                71,
+                77
+              ]
+            },
+            {
+              "text": "stackhighlight",
+              "indices": [
+                78,
+                93
+              ]
+            },
+            {
+              "text": "techstack",
+              "indices": [
+                94,
+                104
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "BeMalasNow",
+              "name": "Bemalas",
+              "id": 3162018967,
+              "id_str": "3162018967",
+              "indices": [
+                1,
+                12
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/ZXKU6vytOb",
+              "expanded_url": "http://bit.ly/2jCGE2V",
+              "display_url": "bit.ly/2jCGE2V",
+              "indices": [
+                33,
+                56
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 825773520458223616,
+              "id_str": "825773520458223616",
+              "indices": [
+                105,
+                128
+              ],
+              "media_url": "http://pbs.twimg.com/media/C3W8pEfWEAAkCuS.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/C3W8pEfWEAAkCuS.jpg",
+              "url": "https://t.co/3ZxePkrDIR",
+              "display_url": "pic.twitter.com/3ZxePkrDIR",
+              "expanded_url": "https://twitter.com/stackshareio/status/825773523952136192/photo/1",
+              "type": "photo",
+              "sizes": {
+                "large": {
+                  "w": 1024,
+                  "h": 1561,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 787,
+                  "h": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 446,
+                  "h": 680,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 825773520458223616,
+              "id_str": "825773520458223616",
+              "indices": [
+                105,
+                128
+              ],
+              "media_url": "http://pbs.twimg.com/media/C3W8pEfWEAAkCuS.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/C3W8pEfWEAAkCuS.jpg",
+              "url": "https://t.co/3ZxePkrDIR",
+              "display_url": "pic.twitter.com/3ZxePkrDIR",
+              "expanded_url": "https://twitter.com/stackshareio/status/825773523952136192/photo/1",
+              "type": "photo",
+              "sizes": {
+                "large": {
+                  "w": 1024,
+                  "h": 1561,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 787,
+                  "h": 1200,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 446,
+                  "h": 680,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1106096840,
+          "id_str": "1106096840",
+          "name": "StackShare",
+          "screen_name": "stackshareio",
+          "location": "San Francisco, CA",
+          "description": "Share your stack, see what other developers are using. #500strong",
+          "url": "https://t.co/QSxgIlyAJJ",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/QSxgIlyAJJ",
+                  "expanded_url": "https://stackshare.io",
+                  "display_url": "stackshare.io",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 5657,
+          "friends_count": 965,
+          "listed_count": 689,
+          "created_at": "Sun Jan 20 12:10:49 +0000 2013",
+          "favourites_count": 5362,
+          "utc_offset": -28800,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 14428,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "FFFFFF",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/768645280/e1d6a9f50df6fcf2bb649fc25a419f6e.png",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/768645280/e1d6a9f50df6fcf2bb649fc25a419f6e.png",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/786493810431762432/DTmZmIyp_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/786493810431762432/DTmZmIyp_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1106096840/1468389993",
+          "profile_link_color": "000000",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und"
+      },
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "und"
+    },
+    {
+      "created_at": "Sun Jan 29 19:41:32 +0000 2017",
+      "id": 825791002778628096,
+      "id_str": "825791002778628096",
+      "text": "Hello freelancer!!  #Joomla JFB Connect Plug In Issues solving by Nitheesh366 https://t.co/QqcezVFhk4 #php",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Joomla",
+            "indices": [
+              20,
+              27
+            ]
+          },
+          {
+            "text": "php",
+            "indices": [
+              102,
+              106
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/QqcezVFhk4",
+            "expanded_url": "https://goo.gl/fb/XgZbGu",
+            "display_url": "goo.gl/fb/XgZbGu",
+            "indices": [
+              78,
+              101
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 115599544,
+        "id_str": "115599544",
+        "name": "Kalpataru D",
+        "screen_name": "graphics123",
+        "location": "",
+        "description": "",
+        "url": "http://t.co/VHg4U8NVqr",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/VHg4U8NVqr",
+                "expanded_url": "http://www.hilltribal.com",
+                "display_url": "hilltribal.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1400,
+        "friends_count": 313,
+        "listed_count": 1501,
+        "created_at": "Fri Feb 19 06:48:57 +0000 2010",
+        "favourites_count": 3,
+        "utc_offset": 19800,
+        "time_zone": "New Delhi",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 368306,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "ACDED6",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/705121328/River_Art_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/705121328/River_Art_normal.jpg",
+        "profile_link_color": "F2245E",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "F6F6F6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:41:31 +0000 2017",
+      "id": 825791001788682240,
+      "id_str": "825791001788682240",
+      "text": "Hello freelancer!!  Web development by tomoscarmyers https://t.co/kfqvuGeUmc #graphicdesign #php #websitedesign",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "graphicdesign",
+            "indices": [
+              77,
+              91
+            ]
+          },
+          {
+            "text": "php",
+            "indices": [
+              92,
+              96
+            ]
+          },
+          {
+            "text": "websitedesign",
+            "indices": [
+              97,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/kfqvuGeUmc",
+            "expanded_url": "https://goo.gl/fb/H7InT1",
+            "display_url": "goo.gl/fb/H7InT1",
+            "indices": [
+              53,
+              76
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.google.com/\" rel=\"nofollow\">Google</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 115599544,
+        "id_str": "115599544",
+        "name": "Kalpataru D",
+        "screen_name": "graphics123",
+        "location": "",
+        "description": "",
+        "url": "http://t.co/VHg4U8NVqr",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/VHg4U8NVqr",
+                "expanded_url": "http://www.hilltribal.com",
+                "display_url": "hilltribal.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1400,
+        "friends_count": 313,
+        "listed_count": 1501,
+        "created_at": "Fri Feb 19 06:48:57 +0000 2010",
+        "favourites_count": 3,
+        "utc_offset": 19800,
+        "time_zone": "New Delhi",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 368306,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "ACDED6",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/705121328/River_Art_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/705121328/River_Art_normal.jpg",
+        "profile_link_color": "F2245E",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "F6F6F6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:40:41 +0000 2017",
+      "id": 825790789905182721,
+      "id_str": "825790789905182721",
+      "text": "RT @pilouanic: PHP Static Analysis Tool - discover bugs in your code without running it! https://t.co/nTxrJTMvVQ #php #testing",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "php",
+            "indices": [
+              113,
+              117
+            ]
+          },
+          {
+            "text": "testing",
+            "indices": [
+              118,
+              126
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "pilouanic",
+            "name": "Alex",
+            "id": 73638751,
+            "id_str": "73638751",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/nTxrJTMvVQ",
+            "expanded_url": "https://github.com/phpstan/phpstan",
+            "display_url": "github.com/phpstan/phpstan",
+            "indices": [
+              89,
+              112
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 17894416,
+        "id_str": "17894416",
+        "name": "Steve Lenz",
+        "screen_name": "hirnsturm",
+        "location": "Berlin - Dresden, Germ",
+        "description": "WWW, DevOps, Agile, Composer, Phing, PHP, Symfony, TYPO3",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 35,
+        "friends_count": 88,
+        "listed_count": 22,
+        "created_at": "Fri Dec 05 10:01:41 +0000 2008",
+        "favourites_count": 494,
+        "utc_offset": 3600,
+        "time_zone": "Bern",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 794,
+        "lang": "de",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "1A315A",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/652835809217875968/gw0gCFUc_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/652835809217875968/gw0gCFUc_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/17894416/1431794489",
+        "profile_link_color": "58B017",
+        "profile_sidebar_border_color": "BDDCAD",
+        "profile_sidebar_fill_color": "BDDCAD",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Jan 12 17:44:05 +0000 2017",
+        "id": 819600851874496515,
+        "id_str": "819600851874496515",
+        "text": "PHP Static Analysis Tool - discover bugs in your code without running it! https://t.co/nTxrJTMvVQ #php #testing",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "php",
+              "indices": [
+                98,
+                102
+              ]
+            },
+            {
+              "text": "testing",
+              "indices": [
+                103,
+                111
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/nTxrJTMvVQ",
+              "expanded_url": "https://github.com/phpstan/phpstan",
+              "display_url": "github.com/phpstan/phpstan",
+              "indices": [
+                74,
+                97
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 73638751,
+          "id_str": "73638751",
+          "name": "Alex",
+          "screen_name": "pilouanic",
+          "location": "Ukraine",
+          "description": "CEO at https://t.co/tTSCQG8oUz, founder of https://t.co/kurRheIrUp, fullstack developer, symfony adept",
+          "url": "http://t.co/tTSCQG8oUz",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/tTSCQG8oUz",
+                  "expanded_url": "http://lazy-ants.com",
+                  "display_url": "lazy-ants.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/tTSCQG8oUz",
+                  "expanded_url": "http://lazy-ants.com",
+                  "display_url": "lazy-ants.com",
+                  "indices": [
+                    7,
+                    30
+                  ]
+                },
+                {
+                  "url": "https://t.co/kurRheIrUp",
+                  "expanded_url": "http://filecessor.com",
+                  "display_url": "filecessor.com",
+                  "indices": [
+                    43,
+                    66
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 429,
+          "friends_count": 613,
+          "listed_count": 74,
+          "created_at": "Sat Sep 12 13:08:47 +0000 2009",
+          "favourites_count": 171,
+          "utc_offset": 7200,
+          "time_zone": "Kiev",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 2038,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/689114451182747648/TONQ5EKy_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/689114451182747648/TONQ5EKy_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/73638751/1436827376",
+          "profile_link_color": "4A913C",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 13,
+        "favorite_count": 43,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 13,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:40:03 +0000 2017",
+      "id": 825790629309452289,
+      "id_str": "825790629309452289",
+      "text": "Making sortable index view tables in #Laravel 4\nhttps://t.co/AuxM7RaKgV\n---\n#Database #Eloquent #PHP",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Laravel",
+            "indices": [
+              37,
+              45
+            ]
+          },
+          {
+            "text": "Database",
+            "indices": [
+              76,
+              85
+            ]
+          },
+          {
+            "text": "Eloquent",
+            "indices": [
+              86,
+              95
+            ]
+          },
+          {
+            "text": "PHP",
+            "indices": [
+              96,
+              100
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/AuxM7RaKgV",
+            "expanded_url": "http://creative-punch.net/2014/01/sortable-index-view-laravel-4/",
+            "display_url": "creative-punch.net/2014/01/sortab…",
+            "indices": [
+              48,
+              71
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://creative-punch.net\" rel=\"nofollow\">Creative Punch</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2217904600,
+        "id_str": "2217904600",
+        "name": "Creative Punch",
+        "screen_name": "creative_punch",
+        "location": "",
+        "description": "Passionate blog about #Webdev #Webdesign #PHP #Laravel #JavaScript #CSS3 #HTML5 and much more! Check out our growing collection of tutorials and resources.",
+        "url": "http://t.co/4NEci8nBml",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/4NEci8nBml",
+                "expanded_url": "http://creative-punch.net",
+                "display_url": "creative-punch.net",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2670,
+        "friends_count": 802,
+        "listed_count": 1405,
+        "created_at": "Tue Dec 10 17:17:36 +0000 2013",
+        "favourites_count": 455,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 103694,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/420579444982431745/j7uTAxtF_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/420579444982431745/j7uTAxtF_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:40:00 +0000 2017",
+      "id": 825790617682845696,
+      "id_str": "825790617682845696",
+      "text": "CodeIgniter #PHP #Framework\n\nhttps://t.co/oNGF5sQ7mi",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "PHP",
+            "indices": [
+              12,
+              16
+            ]
+          },
+          {
+            "text": "Framework",
+            "indices": [
+              17,
+              27
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/oNGF5sQ7mi",
+            "expanded_url": "http://www.codeigniter.com/",
+            "display_url": "codeigniter.com",
+            "indices": [
+              29,
+              52
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://sw.knowpic.com\" rel=\"nofollow\">FrameworksBot</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3062223367,
+        "id_str": "3062223367",
+        "name": "Frameworks",
+        "screen_name": "FrameworksM",
+        "location": "",
+        "description": "",
+        "url": "https://t.co/FbIeMVgNMh",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/FbIeMVgNMh",
+                "expanded_url": "https://github.com/m-tatsuto/frameworks-bot",
+                "display_url": "github.com/m-tatsuto/fram…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 673,
+        "friends_count": 61,
+        "listed_count": 749,
+        "created_at": "Thu Mar 05 04:32:48 +0000 2015",
+        "favourites_count": 10,
+        "utc_offset": 32400,
+        "time_zone": "Tokyo",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 31798,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/581037724787822593/wTfuZ2Sd_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/581037724787822593/wTfuZ2Sd_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:39:16 +0000 2017",
+      "id": 825790434689552384,
+      "id_str": "825790434689552384",
+      "text": "#PHP: Retrieve all possible options within a dropdown and select option for specific record\n#Tech #News #HowTo\nhttps://t.co/nsCNUnWhvb",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "PHP",
+            "indices": [
+              0,
+              4
+            ]
+          },
+          {
+            "text": "Tech",
+            "indices": [
+              92,
+              97
+            ]
+          },
+          {
+            "text": "News",
+            "indices": [
+              98,
+              103
+            ]
+          },
+          {
+            "text": "HowTo",
+            "indices": [
+              104,
+              110
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/nsCNUnWhvb",
+            "expanded_url": "http://abizy.com/p/view.html?url=http://stackoverflow.com/questions/41925084/php-retrieve-all-possible-options-within-a-dropdown-and-select-option-for-speci",
+            "display_url": "abizy.com/p/view.html?ur…",
+            "indices": [
+              111,
+              134
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4387442232,
+        "id_str": "4387442232",
+        "name": "Daily Tech Issues",
+        "screen_name": "AdamSmitht1",
+        "location": "CN",
+        "description": "Daily #Technology Issues & solutions: The height quality on going #Technology events, #news and #information through. Stay connected &  keep updated yourself.",
+        "url": "https://t.co/ZxdvO1ZaiT",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/ZxdvO1ZaiT",
+                "expanded_url": "http://goo.gl/Q5C3zU",
+                "display_url": "goo.gl/Q5C3zU",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1811,
+        "friends_count": 787,
+        "listed_count": 2507,
+        "created_at": "Sat Nov 28 11:03:01 +0000 2015",
+        "favourites_count": 38,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 880036,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/671623862916812800/yGsDKiP4_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/671623862916812800/yGsDKiP4_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4387442232/1448962831",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:38:03 +0000 2017",
+      "id": 825790126165020674,
+      "id_str": "825790126165020674",
+      "text": "RT @LiiorC: Ma petite dernière : à la découverte de #PHP : https://t.co/bZB8ZfP5UV (#WebDev) https://t.co/uhpLpBBSow",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "PHP",
+            "indices": [
+              52,
+              56
+            ]
+          },
+          {
+            "text": "WebDev",
+            "indices": [
+              84,
+              91
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "LiiorC",
+            "name": "Lior CHAMLA",
+            "id": 66123934,
+            "id_str": "66123934",
+            "indices": [
+              3,
+              10
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/bZB8ZfP5UV",
+            "expanded_url": "http://slides.com/lior-chamla/php#/",
+            "display_url": "slides.com/lior-chamla/ph…",
+            "indices": [
+              59,
+              82
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 825786938581987328,
+            "id_str": "825786938581987328",
+            "indices": [
+              93,
+              116
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+            "url": "https://t.co/uhpLpBBSow",
+            "display_url": "pic.twitter.com/uhpLpBBSow",
+            "expanded_url": "https://twitter.com/LiiorC/status/825787121214554112/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 340,
+                "h": 204,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 350,
+                "h": 210,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 350,
+                "h": 210,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 825787121214554112,
+            "source_status_id_str": "825787121214554112",
+            "source_user_id": 66123934,
+            "source_user_id_str": "66123934"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 825786938581987328,
+            "id_str": "825786938581987328",
+            "indices": [
+              93,
+              116
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+            "url": "https://t.co/uhpLpBBSow",
+            "display_url": "pic.twitter.com/uhpLpBBSow",
+            "expanded_url": "https://twitter.com/LiiorC/status/825787121214554112/photo/1",
+            "type": "animated_gif",
+            "sizes": {
+              "small": {
+                "w": 340,
+                "h": 204,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 350,
+                "h": 210,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 350,
+                "h": 210,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 825787121214554112,
+            "source_status_id_str": "825787121214554112",
+            "source_user_id": 66123934,
+            "source_user_id_str": "66123934",
+            "video_info": {
+              "aspect_ratio": [
+                5,
+                3
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/C3XI2G5WMAAbhlX.mp4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "fr",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 311443727,
+        "id_str": "311443727",
+        "name": "lison-marin",
+        "screen_name": "lisonmarin",
+        "location": "Le Pré-Saint-Gervais, France",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 226,
+        "friends_count": 626,
+        "listed_count": 184,
+        "created_at": "Sun Jun 05 13:22:21 +0000 2011",
+        "favourites_count": 3915,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 20848,
+        "lang": "fr",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Jan 29 19:26:06 +0000 2017",
+        "id": 825787121214554112,
+        "id_str": "825787121214554112",
+        "text": "Ma petite dernière : à la découverte de #PHP : https://t.co/bZB8ZfP5UV (#WebDev) https://t.co/uhpLpBBSow",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "PHP",
+              "indices": [
+                40,
+                44
+              ]
+            },
+            {
+              "text": "WebDev",
+              "indices": [
+                72,
+                79
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/bZB8ZfP5UV",
+              "expanded_url": "http://slides.com/lior-chamla/php#/",
+              "display_url": "slides.com/lior-chamla/ph…",
+              "indices": [
+                47,
+                70
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 825786938581987328,
+              "id_str": "825786938581987328",
+              "indices": [
+                81,
+                104
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+              "url": "https://t.co/uhpLpBBSow",
+              "display_url": "pic.twitter.com/uhpLpBBSow",
+              "expanded_url": "https://twitter.com/LiiorC/status/825787121214554112/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 340,
+                  "h": 204,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 350,
+                  "h": 210,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 350,
+                  "h": 210,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 825786938581987328,
+              "id_str": "825786938581987328",
+              "indices": [
+                81,
+                104
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/C3XI2G5WMAAbhlX.jpg",
+              "url": "https://t.co/uhpLpBBSow",
+              "display_url": "pic.twitter.com/uhpLpBBSow",
+              "expanded_url": "https://twitter.com/LiiorC/status/825787121214554112/photo/1",
+              "type": "animated_gif",
+              "sizes": {
+                "small": {
+                  "w": 340,
+                  "h": 204,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 350,
+                  "h": 210,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 350,
+                  "h": 210,
+                  "resize": "fit"
+                }
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  5,
+                  3
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/C3XI2G5WMAAbhlX.mp4"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "fr",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 66123934,
+          "id_str": "66123934",
+          "name": "Lior CHAMLA",
+          "screen_name": "LiiorC",
+          "location": "Marseille, France",
+          "description": "Freelance WebDev, Formateur et ancien fondateur @JBoxWeb. - #SuperTeemo à mes heures - Mes tweets n'engagent que moi. #WebDev, #Technologies et #LeagueOfLegends",
+          "url": "https://t.co/ks6A7yBn2M",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/ks6A7yBn2M",
+                  "expanded_url": "http://www.jbox-web.com",
+                  "display_url": "jbox-web.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 802,
+          "friends_count": 516,
+          "listed_count": 139,
+          "created_at": "Sun Aug 16 14:35:35 +0000 2009",
+          "favourites_count": 493,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 16285,
+          "lang": "fr",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/449905550856175618/hi2BkL9P_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/449905550856175618/hi2BkL9P_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/66123934/1397931768",
+          "profile_link_color": "3B94D9",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "fr"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "fr"
+    },
+    {
+      "created_at": "Sun Jan 29 19:37:38 +0000 2017",
+      "id": 825790024255930373,
+      "id_str": "825790024255930373",
+      "text": "Just passed 8k downloads. Working on more cool stuffs for it. Pull requests are welcome\n\n#php #composer #packagist\n \nhttps://t.co/70cUmAQ1OC",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "php",
+            "indices": [
+              89,
+              93
+            ]
+          },
+          {
+            "text": "composer",
+            "indices": [
+              94,
+              103
+            ]
+          },
+          {
+            "text": "packagist",
+            "indices": [
+              104,
+              114
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/70cUmAQ1OC",
+            "expanded_url": "https://github.com/masihyeganeh/YoutubeDownloader",
+            "display_url": "github.com/masihyeganeh/Y…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2556462055,
+        "id_str": "2556462055",
+        "name": "Masih Yeganeh",
+        "screen_name": "masihyeganeh",
+        "location": "Iran, Tehran",
+        "description": "a programmer who loves open-source",
+        "url": "http://t.co/uAClr4bCO9",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/uAClr4bCO9",
+                "expanded_url": "http://www.dogtag.ir",
+                "display_url": "dogtag.ir",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 107,
+        "friends_count": 256,
+        "listed_count": 1,
+        "created_at": "Mon Jun 09 08:51:20 +0000 2014",
+        "favourites_count": 37,
+        "utc_offset": 12600,
+        "time_zone": "Tehran",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 154,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/475933821829783552/XlP6a5Zj_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/475933821829783552/XlP6a5Zj_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2556462055/1402306989",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:35:55 +0000 2017",
+      "id": 825789590166392832,
+      "id_str": "825789590166392832",
+      "text": "【自分でも作れる！】プログラミング初心者が作ったWebサービス8選\nhttps://t.co/bMmP9ECEx5 ##PHP,#Laravel,#Java,#エンジニア,#プログラマ",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "PHP",
+            "indices": [
+              59,
+              63
+            ]
+          },
+          {
+            "text": "Laravel",
+            "indices": [
+              64,
+              72
+            ]
+          },
+          {
+            "text": "Java",
+            "indices": [
+              73,
+              78
+            ]
+          },
+          {
+            "text": "エンジニア",
+            "indices": [
+              79,
+              85
+            ]
+          },
+          {
+            "text": "プログラマ",
+            "indices": [
+              86,
+              92
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/bMmP9ECEx5",
+            "expanded_url": "https://matome.naver.jp/odai/2137179803100174701",
+            "display_url": "matome.naver.jp/odai/213717980…",
+            "indices": [
+              34,
+              57
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twittbot.net/\" rel=\"nofollow\">twittbot.net</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4485056533,
+        "id_str": "4485056533",
+        "name": "nest＋＋",
+        "screen_name": "nestplus2",
+        "location": "Tokyo-Shinjuku,Shibuya",
+        "description": "IT エンジニアとして、 成長を求める人々の居場所であり続ける。",
+        "url": "https://t.co/KH3vzJ5jTf",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/KH3vzJ5jTf",
+                "expanded_url": "http://nestplus2.com",
+                "display_url": "nestplus2.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2171,
+        "friends_count": 2478,
+        "listed_count": 12,
+        "created_at": "Mon Dec 07 10:28:24 +0000 2015",
+        "favourites_count": 3,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1665,
+        "lang": "ja",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/673812049432985601/pYPuJ_3s_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/673812049432985601/pYPuJ_3s_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4485056533/1449484359",
+        "profile_link_color": "FFCC4D",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.063,
+    "max_id": 825791914469376004,
+    "max_id_str": "825791914469376004",
+    "query": "%23php",
+    "refresh_url": "?since_id=825791914469376004&q=%23php&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}

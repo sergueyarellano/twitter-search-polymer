@@ -1,0 +1,30 @@
+{
+  "name": "twitter-search-polymer",
+  "version": "1.0.0",
+  "description": "polymer test",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergueyarellano/twitter-search-polymer.git"
+  },
+  "author": "Serguey Arellano <sergueyarellano@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergueyarellano/twitter-search-polymer/issues"
+  },
+  "homepage": "https://github.com/sergueyarellano/twitter-search-polymer#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-http-proxy": "^0.11.0",
+    "http-proxy": "^1.16.2",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0"
+  }
+}
