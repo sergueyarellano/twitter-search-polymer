@@ -22,9 +22,6 @@
   "homepage": "https://github.com/sergueyarellano/twitter-search-polymer#readme",
   "dependencies": {
     "express": "^4.14.1",
-    "express-http-proxy": "^0.11.0",
-    "http-proxy": "^1.16.2",
-    "morgan": "^1.7.0",
-    "request": "^2.79.0"
+    "morgan": "^1.7.0"
   }
 }
