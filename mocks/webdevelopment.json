@@ -1,0 +1,2919 @@
+{
+  "statuses": [
+    {
+      "created_at": "Sun Jan 29 19:54:06 +0000 2017",
+      "id": 825794168492535808,
+      "id_str": "825794168492535808",
+      "text": "With the new year here, now is time to invest in your website's #SEO @BearRiverWeb https://t.co/MUDDmL26WZ… https://t.co/m12ly6GDJB",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SEO",
+            "indices": [
+              64,
+              68
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "BearRiverWeb",
+            "name": "BearRiver Web Design",
+            "id": 36182204,
+            "id_str": "36182204",
+            "indices": [
+              69,
+              82
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/MUDDmL26WZ",
+            "expanded_url": "http://buff.ly/2kGoRfg",
+            "display_url": "buff.ly/2kGoRfg",
+            "indices": [
+              83,
+              106
+            ]
+          },
+          {
+            "url": "https://t.co/m12ly6GDJB",
+            "expanded_url": "https://twitter.com/i/web/status/825794168492535808",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              108,
+              131
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 737114239689756672,
+        "id_str": "737114239689756672",
+        "name": "N0c0 Technologies",
+        "screen_name": "N0c0Technology",
+        "location": "Lewis, New York",
+        "description": "We are #n0c0tech - CMS/Responsive Design, Web Hosting and More - Tech Solutions By Us, For You - Sometimes we share articles and stuff",
+        "url": "https://t.co/ggO2DF1nwY",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/ggO2DF1nwY",
+                "expanded_url": "http://www.n0c0.net",
+                "display_url": "n0c0.net",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 152,
+        "friends_count": 275,
+        "listed_count": 100,
+        "created_at": "Mon May 30 02:51:44 +0000 2016",
+        "favourites_count": 15,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 400,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/778976945329569792/XrvxlwAN_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/778976945329569792/XrvxlwAN_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/737114239689756672/1477608323",
+        "profile_link_color": "3F8FFF",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:54:00 +0000 2017",
+      "id": 825794141376409600,
+      "id_str": "825794141376409600",
+      "text": "The Importance Of Getting Feedback On A Website Before It's Launched https://t.co/66ZVyJl92T #WebDevelopment",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WebDevelopment",
+            "indices": [
+              93,
+              108
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/66ZVyJl92T",
+            "expanded_url": "http://bit.ly/2kGgzjc",
+            "display_url": "bit.ly/2kGgzjc",
+            "indices": [
+              69,
+              92
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3041691168,
+        "id_str": "3041691168",
+        "name": "Austin G",
+        "screen_name": "Stegosource",
+        "location": "California",
+        "description": "Developer friendly code. User friendly products.",
+        "url": "http://t.co/uuUo2W6tZs",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/uuUo2W6tZs",
+                "expanded_url": "http://stegosource.com",
+                "display_url": "stegosource.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 87,
+        "friends_count": 110,
+        "listed_count": 135,
+        "created_at": "Wed Feb 25 19:06:48 +0000 2015",
+        "favourites_count": 29,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 573,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/573587283430916096/XN8x5mjM_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/573587283430916096/XN8x5mjM_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3041691168/1425588904",
+        "profile_link_color": "4A913C",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:51:04 +0000 2017",
+      "id": 825793403908739073,
+      "id_str": "825793403908739073",
+      "text": "The latest NewPHP! https://t.co/09SZwOoZjb Thanks to @mini_maru_mayu3 @CharlotteNathou @levelmaria82 #webdevelopment",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "webdevelopment",
+            "indices": [
+              101,
+              116
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "mini_maru_mayu3",
+            "name": "まゆ",
+            "id": 3241288148,
+            "id_str": "3241288148",
+            "indices": [
+              53,
+              69
+            ]
+          },
+          {
+            "screen_name": "CharlotteNathou",
+            "name": "nathou Charlotte",
+            "id": 795440879649640448,
+            "id_str": "795440879649640448",
+            "indices": [
+              70,
+              86
+            ]
+          },
+          {
+            "screen_name": "levelmaria82",
+            "name": "MARIA LEVEL RNO",
+            "id": 3323316945,
+            "id_str": "3323316945",
+            "indices": [
+              87,
+              100
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/09SZwOoZjb",
+            "expanded_url": "http://paper.li/Mortfiles/1309276263?edition_id=bf479550-e63a-11e6-af55-0cc47a0d1609",
+            "display_url": "paper.li/Mortfiles/1309…",
+            "indices": [
+              19,
+              42
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://paper.li\" rel=\"nofollow\">Paper.li</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 12993502,
+        "id_str": "12993502",
+        "name": "Jimi Wikman",
+        "screen_name": "JimiWikman",
+        "location": "Täby kyrkby",
+        "description": "I am a project manager / Omni Consultant focusing on #psychology #businessprocesses #neurowebdesign, #Wordpress, and #ux. Also enjoy a good conversation.",
+        "url": "http://t.co/GgA9RBagBr",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/GgA9RBagBr",
+                "expanded_url": "http://jimiwikman.se",
+                "display_url": "jimiwikman.se",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1378,
+        "friends_count": 825,
+        "listed_count": 544,
+        "created_at": "Sat Feb 02 23:09:06 +0000 2008",
+        "favourites_count": 546,
+        "utc_offset": 3600,
+        "time_zone": "Stockholm",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 47442,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/750052779/1076f7ec6a804923fab81b3863860b00.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/750052779/1076f7ec6a804923fab81b3863860b00.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2880938264/91a2001371c855519dbde64085f64f22_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2880938264/91a2001371c855519dbde64085f64f22_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/12993502/1398227910",
+        "profile_link_color": "D2590E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:42:14 +0000 2017",
+      "id": 825791181900636160,
+      "id_str": "825791181900636160",
+      "text": "RT @image_optimizer: Designers want it SHOOT=&gt; https://t.co/w8ZeXYffOv #Utah #Webdevelopment #UX #ssh #sprite #gif #education #sprite #png…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Utah",
+            "indices": [
+              74,
+              79
+            ]
+          },
+          {
+            "text": "Webdevelopment",
+            "indices": [
+              80,
+              95
+            ]
+          },
+          {
+            "text": "UX",
+            "indices": [
+              96,
+              99
+            ]
+          },
+          {
+            "text": "ssh",
+            "indices": [
+              100,
+              104
+            ]
+          },
+          {
+            "text": "sprite",
+            "indices": [
+              105,
+              112
+            ]
+          },
+          {
+            "text": "gif",
+            "indices": [
+              113,
+              117
+            ]
+          },
+          {
+            "text": "education",
+            "indices": [
+              118,
+              128
+            ]
+          },
+          {
+            "text": "sprite",
+            "indices": [
+              129,
+              136
+            ]
+          },
+          {
+            "text": "png",
+            "indices": [
+              137,
+              141
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "image_optimizer",
+            "name": "Images Optimizer",
+            "id": 795597782186860545,
+            "id_str": "795597782186860545",
+            "indices": [
+              3,
+              19
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/w8ZeXYffOv",
+            "expanded_url": "http://io.i4i.me?tw=0401709",
+            "display_url": "io.i4i.me/?tw=0401709",
+            "indices": [
+              50,
+              73
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.socialsyence.com/\" rel=\"nofollow\">Social Syence</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 7993062,
+        "id_str": "7993062",
+        "name": "David Wickman",
+        "screen_name": "davidwickman",
+        "location": "Midwest",
+        "description": "husband, father, coffee, code, & engineering",
+        "url": "https://t.co/j7AIwGbdHA",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/j7AIwGbdHA",
+                "expanded_url": "http://davidwickman.com",
+                "display_url": "davidwickman.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2287,
+        "friends_count": 1802,
+        "listed_count": 1077,
+        "created_at": "Mon Aug 06 13:59:07 +0000 2007",
+        "favourites_count": 41,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 21327,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "384144",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000161289733/Tvbp-rk_.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000161289733/Tvbp-rk_.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/674947537535537152/YwdF340G_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/674947537535537152/YwdF340G_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/7993062/1449507139",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "F7F7F7",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Jan 29 17:09:01 +0000 2017",
+        "id": 825752621990477824,
+        "id_str": "825752621990477824",
+        "text": "Designers want it SHOOT=&gt; https://t.co/w8ZeXYffOv #Utah #Webdevelopment #UX #ssh #sprite #gif #education #sprite… https://t.co/4RG74b793h",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Utah",
+              "indices": [
+                53,
+                58
+              ]
+            },
+            {
+              "text": "Webdevelopment",
+              "indices": [
+                59,
+                74
+              ]
+            },
+            {
+              "text": "UX",
+              "indices": [
+                75,
+                78
+              ]
+            },
+            {
+              "text": "ssh",
+              "indices": [
+                79,
+                83
+              ]
+            },
+            {
+              "text": "sprite",
+              "indices": [
+                84,
+                91
+              ]
+            },
+            {
+              "text": "gif",
+              "indices": [
+                92,
+                96
+              ]
+            },
+            {
+              "text": "education",
+              "indices": [
+                97,
+                107
+              ]
+            },
+            {
+              "text": "sprite",
+              "indices": [
+                108,
+                115
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/w8ZeXYffOv",
+              "expanded_url": "http://io.i4i.me?tw=0401709",
+              "display_url": "io.i4i.me/?tw=0401709",
+              "indices": [
+                29,
+                52
+              ]
+            },
+            {
+              "url": "https://t.co/4RG74b793h",
+              "expanded_url": "https://twitter.com/i/web/status/825752621990477824",
+              "display_url": "twitter.com/i/web/status/8…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://io.i4i.me/\" rel=\"nofollow\">Images Optimizer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 795597782186860545,
+          "id_str": "795597782186860545",
+          "name": "Images Optimizer",
+          "screen_name": "image_optimizer",
+          "location": "Pasadena, CA",
+          "description": "Best way to performance your site!\nYou can save more than 70% of image size. Save bandwidth and storage space.",
+          "url": "https://t.co/bk3cD2egox",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/bk3cD2egox",
+                  "expanded_url": "http://io.i4i.me/",
+                  "display_url": "io.i4i.me",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 303,
+          "friends_count": 74,
+          "listed_count": 891,
+          "created_at": "Mon Nov 07 12:04:27 +0000 2016",
+          "favourites_count": 42,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 4902,
+          "lang": "ru",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/795600210412113920/-mAtc2Eq_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/795600210412113920/-mAtc2Eq_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/795597782186860545/1478521098",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:41:58 +0000 2017",
+      "id": 825791113076236288,
+      "id_str": "825791113076236288",
+      "text": "RT @Around86: Superb #WordPress, #Webdesign and #webdevelopment for an amazing price. Grab this service through the following link https://…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WordPress",
+            "indices": [
+              21,
+              31
+            ]
+          },
+          {
+            "text": "Webdesign",
+            "indices": [
+              33,
+              43
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              48,
+              63
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Around86",
+            "name": "Natalia",
+            "id": 547750468,
+            "id_str": "547750468",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 68882948,
+        "id_str": "68882948",
+        "name": "J Thompson",
+        "screen_name": "bigkawhona",
+        "location": "Wisconsin",
+        "description": "Mixed martial arts enthusiast and huge UFC fan, athletic trainer and physical therapist",
+        "url": "http://t.co/ludtB6qlhg",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/ludtB6qlhg",
+                "expanded_url": "http://www.mma-fight-night.com",
+                "display_url": "mma-fight-night.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 988,
+        "friends_count": 744,
+        "listed_count": 103,
+        "created_at": "Wed Aug 26 02:50:16 +0000 2009",
+        "favourites_count": 1,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 12452,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "080808",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/46397300/mma1.gif",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/46397300/mma1.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/478506309/52001124_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/478506309/52001124_normal.jpg",
+        "profile_link_color": "0925A1",
+        "profile_sidebar_border_color": "A30018",
+        "profile_sidebar_fill_color": "FC2929",
+        "profile_text_color": "080808",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Wed Jan 25 09:50:50 +0000 2017",
+        "id": 824192797938946049,
+        "id_str": "824192797938946049",
+        "text": "Superb #WordPress, #Webdesign and #webdevelopment for an amazing price. Grab this service through the following link https://t.co/fG1kNXiIJg",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "WordPress",
+              "indices": [
+                7,
+                17
+              ]
+            },
+            {
+              "text": "Webdesign",
+              "indices": [
+                19,
+                29
+              ]
+            },
+            {
+              "text": "webdevelopment",
+              "indices": [
+                34,
+                49
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/fG1kNXiIJg",
+              "expanded_url": "https://goo.gl/mcYaHZ",
+              "display_url": "goo.gl/mcYaHZ",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 547750468,
+          "id_str": "547750468",
+          "name": "Natalia",
+          "screen_name": "Around86",
+          "location": "",
+          "description": "I am #book expert in #Kindle digital and print #CreateSpace versions.  Contact me on my mail nepopoz@gmail.com if you need help with formatting or publishing :)",
+          "url": "http://t.co/5MjexGXc",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/5MjexGXc",
+                  "expanded_url": "http://wefollow.com/around86",
+                  "display_url": "wefollow.com/around86",
+                  "indices": [
+                    0,
+                    20
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 33469,
+          "friends_count": 33598,
+          "listed_count": 71,
+          "created_at": "Sat Apr 07 16:55:02 +0000 2012",
+          "favourites_count": 0,
+          "utc_offset": 3600,
+          "time_zone": "Zagreb",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 4381,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "131516",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/512584791/1.jpg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/512584791/1.jpg",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/2731272943/33961fc555c6444fc23d67a0240b8197_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/2731272943/33961fc555c6444fc23d67a0240b8197_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/547750468/1355916844",
+          "profile_link_color": "009999",
+          "profile_sidebar_border_color": "EEEEEE",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 614,
+        "favorite_count": 102,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 614,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:36:16 +0000 2017",
+      "id": 825789679257522177,
+      "id_str": "825789679257522177",
+      "text": "RT @NickMcBurney: My ultimate list of front-end optimisation techniques: https://t.co/OZ7bq1YtqC #webdevelopment #CSS #javascript #webperf…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "webdevelopment",
+            "indices": [
+              97,
+              112
+            ]
+          },
+          {
+            "text": "CSS",
+            "indices": [
+              113,
+              117
+            ]
+          },
+          {
+            "text": "javascript",
+            "indices": [
+              118,
+              129
+            ]
+          },
+          {
+            "text": "webperf",
+            "indices": [
+              130,
+              138
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "NickMcBurney",
+            "name": "Nick McBurney",
+            "id": 343578255,
+            "id_str": "343578255",
+            "indices": [
+              3,
+              16
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/OZ7bq1YtqC",
+            "expanded_url": "http://nickmcburney.co.uk/blog/ultimate-front-end-optimisation/",
+            "display_url": "nickmcburney.co.uk/blog/ultimate-…",
+            "indices": [
+              73,
+              96
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://tucsoncode.org\" rel=\"nofollow\">JSabotTCS</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4882136093,
+        "id_str": "4882136093",
+        "name": "Tucson Code School",
+        "screen_name": "TucsonCode",
+        "location": "Tucson, AZ",
+        "description": "Inspiring youth to create web applications and software with code",
+        "url": "https://t.co/DWN9VGqOw9",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/DWN9VGqOw9",
+                "expanded_url": "http://www.tucsoncode.org",
+                "display_url": "tucsoncode.org",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 492,
+        "friends_count": 524,
+        "listed_count": 883,
+        "created_at": "Sat Feb 06 16:28:43 +0000 2016",
+        "favourites_count": 81,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 10232,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/696009479335227392/MvbZajrt_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/696009479335227392/MvbZajrt_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4882136093/1456120489",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Jan 29 19:35:28 +0000 2017",
+        "id": 825789477838729216,
+        "id_str": "825789477838729216",
+        "text": "My ultimate list of front-end optimisation techniques: https://t.co/OZ7bq1YtqC #webdevelopment #CSS #javascript #webperf #frontend",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "webdevelopment",
+              "indices": [
+                79,
+                94
+              ]
+            },
+            {
+              "text": "CSS",
+              "indices": [
+                95,
+                99
+              ]
+            },
+            {
+              "text": "javascript",
+              "indices": [
+                100,
+                111
+              ]
+            },
+            {
+              "text": "webperf",
+              "indices": [
+                112,
+                120
+              ]
+            },
+            {
+              "text": "frontend",
+              "indices": [
+                121,
+                130
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/OZ7bq1YtqC",
+              "expanded_url": "http://nickmcburney.co.uk/blog/ultimate-front-end-optimisation/",
+              "display_url": "nickmcburney.co.uk/blog/ultimate-…",
+              "indices": [
+                55,
+                78
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 343578255,
+          "id_str": "343578255",
+          "name": "Nick McBurney",
+          "screen_name": "NickMcBurney",
+          "location": "Manchester",
+          "description": "Fulltime front-end developer and freelance design and developer based in Manchester",
+          "url": "https://t.co/BIYHQc6L86",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/BIYHQc6L86",
+                  "expanded_url": "http://www.nickmcburney.co.uk",
+                  "display_url": "nickmcburney.co.uk",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 95,
+          "friends_count": 125,
+          "listed_count": 18,
+          "created_at": "Wed Jul 27 19:44:38 +0000 2011",
+          "favourites_count": 27,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 115,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "FFFFFF",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/310126981/Twitter-BG-Template.png",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/310126981/Twitter-BG-Template.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/725745950732521476/u7P9wiwh_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/725745950732521476/u7P9wiwh_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/343578255/1461866384",
+          "profile_link_color": "00A2B1",
+          "profile_sidebar_border_color": "00A2B1",
+          "profile_sidebar_fill_color": "FFFFFF",
+          "profile_text_color": "454545",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:35:28 +0000 2017",
+      "id": 825789477838729216,
+      "id_str": "825789477838729216",
+      "text": "My ultimate list of front-end optimisation techniques: https://t.co/OZ7bq1YtqC #webdevelopment #CSS #javascript #webperf #frontend",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "webdevelopment",
+            "indices": [
+              79,
+              94
+            ]
+          },
+          {
+            "text": "CSS",
+            "indices": [
+              95,
+              99
+            ]
+          },
+          {
+            "text": "javascript",
+            "indices": [
+              100,
+              111
+            ]
+          },
+          {
+            "text": "webperf",
+            "indices": [
+              112,
+              120
+            ]
+          },
+          {
+            "text": "frontend",
+            "indices": [
+              121,
+              130
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/OZ7bq1YtqC",
+            "expanded_url": "http://nickmcburney.co.uk/blog/ultimate-front-end-optimisation/",
+            "display_url": "nickmcburney.co.uk/blog/ultimate-…",
+            "indices": [
+              55,
+              78
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 343578255,
+        "id_str": "343578255",
+        "name": "Nick McBurney",
+        "screen_name": "NickMcBurney",
+        "location": "Manchester",
+        "description": "Fulltime front-end developer and freelance design and developer based in Manchester",
+        "url": "https://t.co/BIYHQc6L86",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/BIYHQc6L86",
+                "expanded_url": "http://www.nickmcburney.co.uk",
+                "display_url": "nickmcburney.co.uk",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 95,
+        "friends_count": 125,
+        "listed_count": 18,
+        "created_at": "Wed Jul 27 19:44:38 +0000 2011",
+        "favourites_count": 27,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 115,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/310126981/Twitter-BG-Template.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/310126981/Twitter-BG-Template.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/725745950732521476/u7P9wiwh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/725745950732521476/u7P9wiwh_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/343578255/1461866384",
+        "profile_link_color": "00A2B1",
+        "profile_sidebar_border_color": "00A2B1",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "454545",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:34:59 +0000 2017",
+      "id": 825789355138617345,
+      "id_str": "825789355138617345",
+      "text": "Rainbow Spinner Loader - SVG Animation HTML - CSS - JavaScript https://t.co/S6ntIqZ92A #webdesign #webdevelopment https://t.co/Nb8T5935jd",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "webdesign",
+            "indices": [
+              87,
+              97
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              98,
+              113
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/S6ntIqZ92A",
+            "expanded_url": "https://codecanyon.net/item/rainbow-spinner-loader-svg-animation/19165412?ref=DavidZydd",
+            "display_url": "codecanyon.net/item/rainbow-s…",
+            "indices": [
+              63,
+              86
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 825789303741636608,
+            "id_str": "825789303741636608",
+            "indices": [
+              114,
+              137
+            ],
+            "media_url": "http://pbs.twimg.com/media/C3XK_xzWYAAwWXk.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C3XK_xzWYAAwWXk.jpg",
+            "url": "https://t.co/Nb8T5935jd",
+            "display_url": "pic.twitter.com/Nb8T5935jd",
+            "expanded_url": "https://twitter.com/ZyddVector/status/825789355138617345/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 590,
+                "h": 300,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 590,
+                "h": 300,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 590,
+                "h": 300,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 825789303741636608,
+            "id_str": "825789303741636608",
+            "indices": [
+              114,
+              137
+            ],
+            "media_url": "http://pbs.twimg.com/media/C3XK_xzWYAAwWXk.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C3XK_xzWYAAwWXk.jpg",
+            "url": "https://t.co/Nb8T5935jd",
+            "display_url": "pic.twitter.com/Nb8T5935jd",
+            "expanded_url": "https://twitter.com/ZyddVector/status/825789355138617345/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 590,
+                "h": 300,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 590,
+                "h": 300,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 590,
+                "h": 300,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 794484952616280064,
+        "id_str": "794484952616280064",
+        "name": "Vector Graphics",
+        "screen_name": "ZyddVector",
+        "location": "",
+        "description": "Free and premium vector graphics and designs. https://t.co/RIYBZazyWw #FreeVector #vectorgraphics  #graphicdesign #logo #background #pattern",
+        "url": "https://t.co/xUMLN8Oijj",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/xUMLN8Oijj",
+                "expanded_url": "http://www.shutterstock.com/g/davidzydd?rid=2051861",
+                "display_url": "shutterstock.com/g/davidzydd?ri…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/RIYBZazyWw",
+                "expanded_url": "http://www.freepik.com/davidzydd",
+                "display_url": "freepik.com/davidzydd",
+                "indices": [
+                  46,
+                  69
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1765,
+        "friends_count": 2323,
+        "listed_count": 224,
+        "created_at": "Fri Nov 04 10:22:28 +0000 2016",
+        "favourites_count": 4018,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2597,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/794487663529250816/0n0A6X-5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/794487663529250816/0n0A6X-5_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/794484952616280064/1478256737",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:34:02 +0000 2017",
+      "id": 825789115799060482,
+      "id_str": "825789115799060482",
+      "text": "5 Best Chrome Extensions to Protect your PC https://t.co/DvY6sTeShS #webdesign #webdevelopment #SEO https://t.co/J8EBIzvDD1",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "webdesign",
+            "indices": [
+              68,
+              78
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              79,
+              94
+            ]
+          },
+          {
+            "text": "SEO",
+            "indices": [
+              95,
+              99
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/DvY6sTeShS",
+            "expanded_url": "http://bit.ly/2fo9fGx",
+            "display_url": "bit.ly/2fo9fGx",
+            "indices": [
+              44,
+              67
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 825789112691068929,
+            "id_str": "825789112691068929",
+            "indices": [
+              100,
+              123
+            ],
+            "media_url": "http://pbs.twimg.com/media/C3XK0qFWEAEMVj3.png",
+            "media_url_https": "https://pbs.twimg.com/media/C3XK0qFWEAEMVj3.png",
+            "url": "https://t.co/J8EBIzvDD1",
+            "display_url": "pic.twitter.com/J8EBIzvDD1",
+            "expanded_url": "https://twitter.com/PTsupportLLC/status/825789115799060482/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 1200,
+                "h": 750,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1920,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 425,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 825789112691068929,
+            "id_str": "825789112691068929",
+            "indices": [
+              100,
+              123
+            ],
+            "media_url": "http://pbs.twimg.com/media/C3XK0qFWEAEMVj3.png",
+            "media_url_https": "https://pbs.twimg.com/media/C3XK0qFWEAEMVj3.png",
+            "url": "https://t.co/J8EBIzvDD1",
+            "display_url": "pic.twitter.com/J8EBIzvDD1",
+            "expanded_url": "https://twitter.com/PTsupportLLC/status/825789115799060482/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 1200,
+                "h": 750,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1920,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 425,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.ajaymatharu.com/\" rel=\"nofollow\">Tweet Old Post</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 163964149,
+        "id_str": "163964149",
+        "name": "Praxis Technologies",
+        "screen_name": "PTsupportLLC",
+        "location": "Palm Beach, FL",
+        "description": "Responsive Web Development, Web Design & SEO Marketing Agency in Palm Beach, FL & LA, CA. PTsupport translates your ideas into action. @Villanova_Alum",
+        "url": "https://t.co/EFrVzcDzZ7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/EFrVzcDzZ7",
+                "expanded_url": "http://ptsupport.com",
+                "display_url": "ptsupport.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1043,
+        "friends_count": 650,
+        "listed_count": 320,
+        "created_at": "Wed Jul 07 18:14:24 +0000 2010",
+        "favourites_count": 1102,
+        "utc_offset": -28800,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 4147,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/662442988/4sai1ried6cy46kkkw9o.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/662442988/4sai1ried6cy46kkkw9o.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/730637093366603777/Seu_Hz9f_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/730637093366603777/Seu_Hz9f_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/163964149/1463541151",
+        "profile_link_color": "11384E",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:30:09 +0000 2017",
+      "id": 825788140820500481,
+      "id_str": "825788140820500481",
+      "text": "\"30 Best Creative Design and Photography #WordPress #Themes for 2017\" https://t.co/xUEBcIrdmq #blogging #Webdesign #webdevelopment",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WordPress",
+            "indices": [
+              41,
+              51
+            ]
+          },
+          {
+            "text": "Themes",
+            "indices": [
+              52,
+              59
+            ]
+          },
+          {
+            "text": "blogging",
+            "indices": [
+              94,
+              103
+            ]
+          },
+          {
+            "text": "Webdesign",
+            "indices": [
+              104,
+              114
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              115,
+              130
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/xUEBcIrdmq",
+            "expanded_url": "http://justlearnwp.com/wordpress-photography-themes/",
+            "display_url": "justlearnwp.com/wordpress-phot…",
+            "indices": [
+              70,
+              93
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 77563104,
+        "id_str": "77563104",
+        "name": "JustLearnWP.com",
+        "screen_name": "JustLearnWP",
+        "location": "Pakistan",
+        "description": "Find In-depth articles and tutorials about #WordPress #Blogging #emailMarketing at https://t.co/ICbwm3p22k",
+        "url": "https://t.co/8BtskWtAqj",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/8BtskWtAqj",
+                "expanded_url": "http://JustLearnWP.com/Newsletter",
+                "display_url": "JustLearnWP.com/Newsletter",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/ICbwm3p22k",
+                "expanded_url": "http://JustLearnWP.com",
+                "display_url": "JustLearnWP.com",
+                "indices": [
+                  83,
+                  106
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1081,
+        "friends_count": 93,
+        "listed_count": 1066,
+        "created_at": "Sat Sep 26 20:08:45 +0000 2009",
+        "favourites_count": 62,
+        "utc_offset": 18000,
+        "time_zone": "Karachi",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 13197,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/768606407155453952/xXJ_Rqtm_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/768606407155453952/xXJ_Rqtm_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/77563104/1471944753",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:20:05 +0000 2017",
+      "id": 825785604562677760,
+      "id_str": "825785604562677760",
+      "text": "#ASPNETCore  : Adding The Default View With _ViewStart.cshtml https://t.co/owyZ8CFQ77 #dotnetcore #webdevelopment… https://t.co/MfNUagb2Gs",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ASPNETCore",
+            "indices": [
+              0,
+              11
+            ]
+          },
+          {
+            "text": "dotnetcore",
+            "indices": [
+              86,
+              97
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              98,
+              113
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/owyZ8CFQ77",
+            "expanded_url": "http://buff.ly/2hAyv0N",
+            "display_url": "buff.ly/2hAyv0N",
+            "indices": [
+              62,
+              85
+            ]
+          },
+          {
+            "url": "https://t.co/MfNUagb2Gs",
+            "expanded_url": "https://twitter.com/i/web/status/825785604562677760",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              115,
+              138
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3064266184,
+        "id_str": "3064266184",
+        "name": "Tech Junkie",
+        "screen_name": "techjunkiejh",
+        "location": "",
+        "description": "Experience and passionate software engineer, focus on .NET and Java EE technology, and front end development.  Practicer of unlearn principle. Always learning.",
+        "url": "https://t.co/IAUcQUfG4o",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/IAUcQUfG4o",
+                "expanded_url": "http://www.techjunkieblog.com",
+                "display_url": "techjunkieblog.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 21008,
+        "friends_count": 17727,
+        "listed_count": 7236,
+        "created_at": "Fri Feb 27 00:58:22 +0000 2015",
+        "favourites_count": 7325,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 117428,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/587160065536299009/9MBFPj6a_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/587160065536299009/9MBFPj6a_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3064266184/1465744133",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:15:29 +0000 2017",
+      "id": 825784446834135040,
+      "id_str": "825784446834135040",
+      "text": "\"Ultimate Collection of #WordPress Theme Development Tools https://t.co/xyxe0299IU #webdevelopment #Webdesign",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WordPress",
+            "indices": [
+              24,
+              34
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              83,
+              98
+            ]
+          },
+          {
+            "text": "Webdesign",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/xyxe0299IU",
+            "expanded_url": "http://justlearnwp.com/wordpress-development-tools/",
+            "display_url": "justlearnwp.com/wordpress-deve…",
+            "indices": [
+              59,
+              82
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 77563104,
+        "id_str": "77563104",
+        "name": "JustLearnWP.com",
+        "screen_name": "JustLearnWP",
+        "location": "Pakistan",
+        "description": "Find In-depth articles and tutorials about #WordPress #Blogging #emailMarketing at https://t.co/ICbwm3p22k",
+        "url": "https://t.co/8BtskWtAqj",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/8BtskWtAqj",
+                "expanded_url": "http://JustLearnWP.com/Newsletter",
+                "display_url": "JustLearnWP.com/Newsletter",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/ICbwm3p22k",
+                "expanded_url": "http://JustLearnWP.com",
+                "display_url": "JustLearnWP.com",
+                "indices": [
+                  83,
+                  106
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1081,
+        "friends_count": 93,
+        "listed_count": 1066,
+        "created_at": "Sat Sep 26 20:08:45 +0000 2009",
+        "favourites_count": 62,
+        "utc_offset": 18000,
+        "time_zone": "Karachi",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 13197,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/768606407155453952/xXJ_Rqtm_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/768606407155453952/xXJ_Rqtm_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/77563104/1471944753",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:05:37 +0000 2017",
+      "id": 825781966532386818,
+      "id_str": "825781966532386818",
+      "text": "UPDATE! #joomla Color Swatch for VirtueMart 3 - 2.5.0 https://t.co/L4e4Dcb5ec #webdev #website #webdevelopment #JoomlaBrazil #webapp",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "joomla",
+            "indices": [
+              8,
+              15
+            ]
+          },
+          {
+            "text": "webdev",
+            "indices": [
+              78,
+              85
+            ]
+          },
+          {
+            "text": "website",
+            "indices": [
+              86,
+              94
+            ]
+          },
+          {
+            "text": "webdevelopment",
+            "indices": [
+              95,
+              110
+            ]
+          },
+          {
+            "text": "JoomlaBrazil",
+            "indices": [
+              111,
+              124
+            ]
+          },
+          {
+            "text": "webapp",
+            "indices": [
+              125,
+              132
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/L4e4Dcb5ec",
+            "expanded_url": "http://joomxchange.com/categories/download/197-cmsmart/2808-color-swatch-for-virtuemart-3",
+            "display_url": "joomxchange.com/categories/dow…",
+            "indices": [
+              54,
+              77
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1583809147,
+        "id_str": "1583809147",
+        "name": "JoomXchange",
+        "screen_name": "JoomXchange",
+        "location": "",
+        "description": "The No1 Xchange for your J!3.x Templates & Extensions.",
+        "url": "http://t.co/67Jc1GmBtM",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/67Jc1GmBtM",
+                "expanded_url": "http://JoomXchange.com",
+                "display_url": "JoomXchange.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 152,
+        "friends_count": 0,
+        "listed_count": 166,
+        "created_at": "Wed Jul 10 18:56:54 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": 7200,
+        "time_zone": "Athens",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9632,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "43A6DF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000115558328/31b01dceb5ec618ee2a21486ff6809dd_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000115558328/31b01dceb5ec618ee2a21486ff6809dd_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1583809147/1431377944",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:04:44 +0000 2017",
+      "id": 825781741801594881,
+      "id_str": "825781741801594881",
+      "text": "RT @agmaldonado: Handoffs #Guide 4 Pixel Perfect #Design Pt II by Vlad Kamelsky https://t.co/jAJwUb61kD #UI #UX #WebDevelopment #FrontEndDe…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Guide",
+            "indices": [
+              26,
+              32
+            ]
+          },
+          {
+            "text": "Design",
+            "indices": [
+              49,
+              56
+            ]
+          },
+          {
+            "text": "UI",
+            "indices": [
+              104,
+              107
+            ]
+          },
+          {
+            "text": "UX",
+            "indices": [
+              108,
+              111
+            ]
+          },
+          {
+            "text": "WebDevelopment",
+            "indices": [
+              112,
+              127
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "agmaldonado",
+            "name": "Adam Maldonado",
+            "id": 14229632,
+            "id_str": "14229632",
+            "indices": [
+              3,
+              15
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/jAJwUb61kD",
+            "expanded_url": "https://medium.com/pixelpoint/handoffs-guide-for-pixel-perfect-design-part-ii-d91999742dd9#.4x0rw5wsd",
+            "display_url": "medium.com/pixelpoint/han…",
+            "indices": [
+              80,
+              103
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.socialsyence.com/\" rel=\"nofollow\">Social Syence</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 7993062,
+        "id_str": "7993062",
+        "name": "David Wickman",
+        "screen_name": "davidwickman",
+        "location": "Midwest",
+        "description": "husband, father, coffee, code, & engineering",
+        "url": "https://t.co/j7AIwGbdHA",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/j7AIwGbdHA",
+                "expanded_url": "http://davidwickman.com",
+                "display_url": "davidwickman.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2287,
+        "friends_count": 1802,
+        "listed_count": 1077,
+        "created_at": "Mon Aug 06 13:59:07 +0000 2007",
+        "favourites_count": 41,
+        "utc_offset": -18000,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 21327,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "384144",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000161289733/Tvbp-rk_.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000161289733/Tvbp-rk_.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/674947537535537152/YwdF340G_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/674947537535537152/YwdF340G_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/7993062/1449507139",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "F7F7F7",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Jan 29 18:37:27 +0000 2017",
+        "id": 825774877776941056,
+        "id_str": "825774877776941056",
+        "text": "Handoffs #Guide 4 Pixel Perfect #Design Pt II by Vlad Kamelsky https://t.co/jAJwUb61kD #UI #UX #WebDevelopment #FrontEndDevelopment #Tech",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Guide",
+              "indices": [
+                9,
+                15
+              ]
+            },
+            {
+              "text": "Design",
+              "indices": [
+                32,
+                39
+              ]
+            },
+            {
+              "text": "UI",
+              "indices": [
+                87,
+                90
+              ]
+            },
+            {
+              "text": "UX",
+              "indices": [
+                91,
+                94
+              ]
+            },
+            {
+              "text": "WebDevelopment",
+              "indices": [
+                95,
+                110
+              ]
+            },
+            {
+              "text": "FrontEndDevelopment",
+              "indices": [
+                111,
+                131
+              ]
+            },
+            {
+              "text": "Tech",
+              "indices": [
+                132,
+                137
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/jAJwUb61kD",
+              "expanded_url": "https://medium.com/pixelpoint/handoffs-guide-for-pixel-perfect-design-part-ii-d91999742dd9#.4x0rw5wsd",
+              "display_url": "medium.com/pixelpoint/han…",
+              "indices": [
+                63,
+                86
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 14229632,
+          "id_str": "14229632",
+          "name": "Adam Maldonado",
+          "screen_name": "agmaldonado",
+          "location": "Longview, TX",
+          "description": "Texan, #musician, #geek, #sneakerhead, loose leaf tea drinker, MA. Historian, heath-fitness nut & an observer of life Sorry cannot 100% follow back #Reciprocity",
+          "url": "https://t.co/zsi43RHVfF",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/zsi43RHVfF",
+                  "expanded_url": "https://www.instagram.com/agmaldonado8301/",
+                  "display_url": "instagram.com/agmaldonado830…",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 4857,
+          "friends_count": 4792,
+          "listed_count": 2160,
+          "created_at": "Wed Mar 26 20:53:12 +0000 2008",
+          "favourites_count": 6774,
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 52602,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "131516",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/677896328748261376/WkBSz3Hn.jpg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/677896328748261376/WkBSz3Hn.jpg",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/801142830525579265/UFmfigEW_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/801142830525579265/UFmfigEW_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/14229632/1426078558",
+          "profile_link_color": "009999",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Jan 29 19:01:02 +0000 2017",
+      "id": 825780812385771522,
+      "id_str": "825780812385771522",
+      "text": "#WebDevelopment brings Brand Regognition! https://t.co/RyDLPrUZRb https://t.co/3au6WDMP7T",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WebDevelopment",
+            "indices": [
+              0,
+              15
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/RyDLPrUZRb",
+            "expanded_url": "http://bit.ly/2iWE8Xp",
+            "display_url": "bit.ly/2iWE8Xp",
+            "indices": [
+              42,
+              65
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 825780808409550848,
+            "id_str": "825780808409550848",
+            "indices": [
+              66,
+              89
+            ],
+            "media_url": "http://pbs.twimg.com/media/C3XDRSOWEAA183l.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C3XDRSOWEAA183l.jpg",
+            "url": "https://t.co/3au6WDMP7T",
+            "display_url": "pic.twitter.com/3au6WDMP7T",
+            "expanded_url": "https://twitter.com/Columbia_SEO/status/825780812385771522/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 932,
+                "h": 714,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 521,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 932,
+                "h": 714,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 825780808409550848,
+            "id_str": "825780808409550848",
+            "indices": [
+              66,
+              89
+            ],
+            "media_url": "http://pbs.twimg.com/media/C3XDRSOWEAA183l.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C3XDRSOWEAA183l.jpg",
+            "url": "https://t.co/3au6WDMP7T",
+            "display_url": "pic.twitter.com/3au6WDMP7T",
+            "expanded_url": "https://twitter.com/Columbia_SEO/status/825780812385771522/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 932,
+                "h": 714,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 680,
+                "h": 521,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 932,
+                "h": 714,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://sendible.com\" rel=\"nofollow\">Sendible App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 558153945,
+        "id_str": "558153945",
+        "name": "ColumbiaSEO",
+        "screen_name": "Columbia_SEO",
+        "location": "Columbia, SC",
+        "description": "We help businesses get and keep more customers.  It's as simple as that.",
+        "url": "http://t.co/yQJRC4bDNY",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/yQJRC4bDNY",
+                "expanded_url": "http://www.seocolumbiasc.com",
+                "display_url": "seocolumbiasc.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 201,
+        "friends_count": 601,
+        "listed_count": 68,
+        "created_at": "Thu Apr 19 21:26:31 +0000 2012",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 606,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "DBE9ED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2971513537/984495665d1691130a1b4f8180dc0435_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2971513537/984495665d1691130a1b4f8180dc0435_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/558153945/1355422554",
+        "profile_link_color": "CC3366",
+        "profile_sidebar_border_color": "DBE9ED",
+        "profile_sidebar_fill_color": "E6F6F9",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.055,
+    "max_id": 825794168492535808,
+    "max_id_str": "825794168492535808",
+    "next_results": "?max_id=825780812385771521&q=%23webdevelopment&include_entities=1",
+    "query": "%23webdevelopment",
+    "refresh_url": "?since_id=825794168492535808&q=%23webdevelopment&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
