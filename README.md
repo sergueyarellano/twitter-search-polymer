@@ -10,6 +10,8 @@
 
   * In a normal case I would put each component in a separate repo and then import them in the main app.
 
+3. The service worker has been generated creating a config file under `swconfig/` and running this command:
+  * `$twitter-search-polymer> node_modules/.bin/sw-precache --config=swconfig/sw-precache-config.js --verbose`
 ### Running the app
 
 **Polymer CLI** and **bower** must be installed globally
