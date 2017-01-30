@@ -12,6 +12,7 @@
 
 3. The service worker has been generated creating a config file under `swconfig/` and running this command:
   * `$twitter-search-polymer> node_modules/.bin/sw-precache --config=swconfig/sw-precache-config.js --verbose`
+
 ### Running the app
 
 **Polymer CLI** and **bower** must be installed globally
