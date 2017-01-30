@@ -1,13 +1,20 @@
+### Notes
+
 The twitter api does not permit webapps to run requests via localhost due to some oauth policy.
 
 For this case I just created a server in nodeJS and expressJS to serve mocks.
 
 The mocks were recorded with the real responses of twitter API via POSTMAN (the only way to attack the api if not in production)
+For this special case the components are at the same level as the main app.
+
+In a normal case I would put each component in a separate repo and then import them in the main app.
+
+### Running the app
 
 Polymer CLI and bower must be installed globally
 
 `npm install` will install node packages:
 
-* In the postinstall bower packages will be installed.
+* In the postinstall bower packages will be installed automatically.
 
 `npm start` will run the mock server and the polymer server.
