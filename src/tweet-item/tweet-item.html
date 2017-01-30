@@ -26,6 +26,9 @@
         width: 100%;
         padding: 5px;
       }
+      paper-button {
+        text-transform: none;
+      }
       span[highlighted] {
         color: blue;
       }
@@ -38,7 +41,7 @@
       <div class="card-content">
 
         <template is="dom-repeat" items="[[tweet]]" as="detail">
-          <span highlighted$="[[detail.highlighted]]" on-tap="bindHighlightedToInput">[[detail.text]]</span>
+          <span highlighted$="[[detail.highlighted]]" on-tap="setInputContent">[[detail.text]]</span>
           <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
             <div class="card-actions">
               <paper-icon-button icon="icons:account-circle"></paper-icon-button>
@@ -56,11 +59,8 @@
     Polymer({
 
       is: 'tweet-item',
-      bindHighlightedToInput: function(e) {
-        var highlighted = e.target.getAttribute('highlighted')
-        if (typeof highlighted === 'string') {
+      setInputContent: function(e) {
           this.search = e.target.innerHTML;
-        }
       },
       properties: {
         tweet: {
