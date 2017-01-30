@@ -1,0 +1,46 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-radio-group/paper-radio-group.html">
+
+<!--
+`refresh-tweets`
+
+
+@demo demo/index.html
+-->
+
+<dom-module id="refresh-tweets">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <paper-radio-group selected="{{newRefreshRatio}}">
+      <paper-radio-button name="0">Don't refresh</paper-radio-button>
+      <paper-radio-button name="2000" disabled$=[[refreshBtnIsHidden]]>2 seconds</paper-radio-button>
+      <paper-radio-button name="5000" disabled$=[[refreshBtnIsHidden]]>5 seconds</paper-radio-button>
+      <paper-radio-button name="30000" disabled$=[[refreshBtnIsHidden]]>30 seconds</paper-radio-button>
+      <paper-radio-button name="60000" disabled$=[[refreshBtnIsHidden]]>1 minute</paper-radio-button>
+    </paper-radio-group>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'refresh-tweets',
+
+      properties: {
+        newRefreshRatio: {
+          type: String,
+          notify: true
+        },
+        refreshBtnIsHidden: {
+          type: Boolean,
+          value: false,
+          notify: true
+        },
+      },
+
+    });
+  </script>
+</dom-module>
