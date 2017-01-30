@@ -41,7 +41,7 @@ app.get('/api', (req, res)=> {
       {
         statuses: [
           {
-            text:'Twitter\'s does not admit requests from localhost. Due to this I have mocked responses powered by nodeJS.\
+            text:'Twitter\'s API does not admit requests from localhost. Due to this I have mocked responses powered by nodeJS.\
             Available queries: #javascript or #python #php #frontend #css #laravel #webdevelopment #webperf',
             user: {
               screen_name: 'serguey_arellano',
