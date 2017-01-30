@@ -1,0 +1,78 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+
+<!--
+`tweet-item`
+
+
+@demo demo/index.html
+-->
+
+<dom-module id="tweet-item">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      paper-card.size {
+        --paper-card-header-image: {
+          width:10%;
+        }
+      }
+      paper-card {
+        width: 100%;
+        padding: 5px;
+      }
+      span[highlighted] {
+        color: blue;
+      }
+      span[highlighted]:hover {
+        color: purple;
+        cursor: pointer;
+      }
+    </style>
+    <paper-card class="size" image="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-128.png" alt="Emmental">
+      <div class="card-content">
+
+        <template is="dom-repeat" items="[[tweet]]" as="detail">
+          <span highlighted$="[[detail.highlighted]]" on-tap="bindHighlightedToInput">[[detail.text]]</span>
+          <template is="dom-if" if="[[detail.screen_name]]" restamp="true">
+            <div class="card-actions">
+              <paper-icon-button icon="icons:account-circle"></paper-icon-button>
+              <paper-button>[[detail.screen_name]]</paper-button>
+              <paper-button>[[detail.retweet_count]] RT's</paper-button>
+            </div>
+          </template>
+        </template>
+
+      </div>
+    </paper-card>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'tweet-item',
+      bindHighlightedToInput: function(e) {
+        var highlighted = e.target.getAttribute('highlighted')
+        if (typeof highlighted === 'string') {
+          this.search = e.target.innerHTML;
+        }
+      },
+      properties: {
+        tweet: {
+          type: Array
+        },
+        search: {
+          type: String,
+          value: '',
+          notify: true
+        },
+      },
+
+    });
+  </script>
+</dom-module>
