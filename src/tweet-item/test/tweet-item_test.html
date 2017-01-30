@@ -24,6 +24,13 @@
           var element = fixture('basic');
           assert.equal(element.is, 'tweet-item');
         });
+        test('setInputContent should set property \'search\' to the argument passed', function() {
+          var element = fixture('basic');
+          element.setInputContent({target: {innerHTML: '#javascript'}})
+          var actual = element.search
+          var expected = '#javascript'
+          assert.equal(actual, expected);
+        });
       });
     </script>
   </body>
